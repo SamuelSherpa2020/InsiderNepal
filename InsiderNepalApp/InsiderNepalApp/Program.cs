@@ -1,7 +1,14 @@
+using InsiderNepalApp.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// whatever services are needed in application will be declared here.
+builder.Services.AddDbContext<InsiderNepalDbContext>(options
+    => options.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
 
 var app = builder.Build();
 
@@ -22,6 +29,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=NationalNews}/{action=AddNews}/{id?}");
 
 app.Run();
