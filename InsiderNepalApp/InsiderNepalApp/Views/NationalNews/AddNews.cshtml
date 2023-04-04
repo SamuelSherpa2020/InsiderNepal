@@ -1,10 +1,11 @@
-﻿@model InsiderNepalApp.Models.NationalNews;
+﻿@model InsiderNepalApp.ViewModel.NationalNewsVM;
 
 <form asp-action="AddNews" method="post" class="col g-10" enctype="multipart/form-data">
+   
     <h3>Add National News</h3>
     <div class="mt-4 col-md-12"></div>
 
-    <div class="col-sm-5">
+    <div class="col-sm-5 col-md-5">
         <label asp-for="Title" class="form-label">News Title</label>
         <input asp-for="Title" type="text" class="form-control">
         <span class="text-danger" asp-validation-for="Title"></span>
@@ -20,12 +21,13 @@
     <div class="mt-4 col-md-12"></div>
     
 
-    <div class="mb-3 col-md-3">
-        <label asp-for="ImageUrl" class="form-label">News Image</label><br />
-        <input type="file" class="form-control">
-        <span class="text-danger" asp-validation-for="ImageUrl"></span>
+    <div class="mb-3 col-md-5">
+        <label asp-for="Avatar" class="form-label">News Image</label><br />
+        <input class="form-control" asp-for="Avatar">
+        <span class="text-danger" asp-validation-for=Content></span>
        
     </div>
+   
     <div class="mt-4 col-md-12"></div>
 
     <div class="col-sm-8">
@@ -41,6 +43,6 @@
         <span class="text-danger" asp-validation-for="Author"></span>
     </div>
     <div class="mt-4 col-md-12"></div>
-
+    
     <button type="submit" class="btn btn-primary">Publish</button>
 </form>

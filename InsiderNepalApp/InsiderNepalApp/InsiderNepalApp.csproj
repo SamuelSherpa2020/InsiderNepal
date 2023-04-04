@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\images\National\" />
+    <Folder Include="wwwroot\images\Profile\" />
     <Folder Include="wwwroot\img\GlobalImg\" />
     <Folder Include="wwwroot\img\BusinessImg\" />
     <Folder Include="wwwroot\img\JournalImg\" />
