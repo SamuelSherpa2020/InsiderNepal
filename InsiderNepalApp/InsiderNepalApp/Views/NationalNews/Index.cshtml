@@ -8,7 +8,26 @@
     <title style="font-family:monospace">National News Index</title>
 </head>
 <body>
-    <div class="text-center h2" style="font-family:consolas">National News</div>
+    
+    <nav class="sidenavbar">
+        <ul style="margin-top:100px;">
+            <li><a href="Index"><i class="fa-solid fa-pen-to-square m-2"></i>Edit</a></li>
+            <li><a href="Index/"><i class="fa-solid fa-trash m-2"></i>Delete</a></li>
+            <li><a href="AddNews"><i class="fa-solid fa-plus m-2"></i>Add</a></li>
+        </ul>
+    </nav>
+    <div class="navbar-toggle">
+        
+    <a id="navbar-toggle" class="btn btn-primary" style="background-color:rgb(11,35,81); position:fixed;right:10px;" href="#"><i class="fa-solid fa-bars"></i></a>
+    </div>
+
+ 
+    
+    <div style="padding-bottom:60px"></div>
+    <div class="newsTopic">
+    <div class="text-center h2">National News</div>
+    </div>
+  
 
     @foreach (var nnews in Model)
     {
@@ -16,10 +35,19 @@
 
         <div class="d-flex mt-5  col-12 col-sm-6 col-md-6" style="width:50rem;">
             <div class="col-md-6 col-sm-6">
-                <h3 class="card-title" style="font-family:Calibri">@nnews.Title</h3>
+               <div class="newsHeadLine">
+                <h3 class="card-title">@nnews.Title</h3>
+               </div>
+               <div class="dateAndAuthor">
                 <p class="text-black-50">@nnews.PublishDateTime.ToString("MMM dd, yyyy")</p>
+               </div>
+                <div class="newsContent">
+
                 <p style="font-weight:bold">@nnews.Content</p>
+                </div>
+                <div class="dateAndAuthor">
                 <p class="text-black-50">- @nnews.Author</p>
+                </div>
             </div>
             @*different ways of fitting image in the given dev: fill, contain, cover none, scale-down*@
                 <div class="col-md-6 col-sm-6" style="width:300px; height: 220px;">
@@ -33,5 +61,14 @@
         </div>
 
     }
+    <script>
+        const navbarToggle = document.getElementById("navbar-toggle");
+        const sideNavbar = document.querySelector(".sidenavbar");
+
+        navbarToggle.addEventListener("click", () => {
+            sideNavbar.classList.toggle("active");
+        });
+    </script>
+   
 </body>
 </html>

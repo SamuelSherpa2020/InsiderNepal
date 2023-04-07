@@ -273,3 +273,4 @@ E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\obj\Debug\net7.0\re
 E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\obj\Debug\net7.0\InsiderNepalApp.pdb
 E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\obj\Debug\net7.0\InsiderNepalApp.genruntimeconfig.cache
 E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\obj\Debug\net7.0\ref\InsiderNepalApp.dll
+E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\bin\Debug\net7.0\libman.json

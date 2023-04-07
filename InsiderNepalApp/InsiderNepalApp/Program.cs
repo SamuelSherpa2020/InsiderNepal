@@ -29,6 +29,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=NationalNews}/{action=AddNews}/{id?}");
+    pattern: "{controller=Home}/{action=Index}");
 
 app.Run();

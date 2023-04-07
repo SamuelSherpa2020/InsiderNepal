@@ -5,12 +5,316 @@
       "PackagePath": "staticwebassets\\InsiderNepalApp.bundle.scp.css"
     },
     {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-Black.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-Black.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-BlackItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-Bold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-Bold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-BoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-Italic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-Italic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-Light.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-Light.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-LightItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-Regular.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-Regular.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-Bold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-Bold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-ExtraBold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-ExtraLight.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-Light.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-Light.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-Medium.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-Medium.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-Regular.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-Regular.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-SemiBold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Profile\\0681a572-f426-413d-9117-3a3ede0f605b_pmoli.jpg",
@@ -45,6 +349,10 @@
       "PackagePath": "staticwebassets\\images\\Profile\\9c0e2793-a70e-4a78-8384-07f49dfc23c9_alina theeng 1.jpg"
     },
     {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Profile\\a381cf02-4bbd-4a7c-ab2a-0d14cb1c3920_kailash.jpg",
+      "PackagePath": "staticwebassets\\images\\Profile\\a381cf02-4bbd-4a7c-ab2a-0d14cb1c3920_kailash.jpg"
+    },
+    {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Profile\\b78416ef-8b5b-4bb3-9a6c-c56316689c42_nbc-social-default.png",
       "PackagePath": "staticwebassets\\images\\Profile\\b78416ef-8b5b-4bb3-9a6c-c56316689c42_nbc-social-default.png"
     },
@@ -59,6 +367,10 @@
     {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Profile\\d10277d4-21e1-4943-93bc-d2e99d27fe35_sushrit.jpg",
       "PackagePath": "staticwebassets\\images\\Profile\\d10277d4-21e1-4943-93bc-d2e99d27fe35_sushrit.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Profile\\dd59d4c2-095d-43e9-8dcc-8d32d57f8fc7_Dorje da.jpg",
+      "PackagePath": "staticwebassets\\images\\Profile\\dd59d4c2-095d-43e9-8dcc-8d32d57f8fc7_Dorje da.jpg"
     },
     {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Profile\\e103ca39-4d8d-4692-8087-0495453e8602_sumane.jpg",
