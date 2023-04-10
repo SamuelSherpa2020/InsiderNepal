@@ -12,26 +12,25 @@ public class AdsVM
     [Required]
     public string? Description { get; set; }
 
-    [Required]
+   
     public string? ImageUrl { get; set; }
 
     [Required]
-    public decimal? Price { get; set; }
+    public float? Price { get; set; }
 
     [Required]
     public string? ContactInformation { get; set; }
 
     [Required]
-    public DateTime? StartDate { get; set; }
+    [DataType(DataType.Date)]
+    public DateTime StartDate { get; set; }
 
     [Required]
     [DataType(DataType.Date)]
-    public DateTime? EndDate { get; set; }
+    public DateTime EndDate { get; set; }
 
 
-    [Required]
-    [DataType(DataType.Date)]
-
-    public IFormFile? AdsImage { get; set; } 
+    
+    public IFormFile? AdsAvatar { get; set; } 
 
 }   

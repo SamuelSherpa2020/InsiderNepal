@@ -3,21 +3,44 @@ using InsiderNepalApp.ViewModel;
 
 namespace InsiderNepalApp.Mapper
 {
-    public class AdsMapper
+    public static class AdsMapper
     {
-        public AdsVM toAdsVM(AdsModel ads)
+        //mapper to translate Model to ViewModel
+        public static AdsModel ToModel(this AdsVM ads)
         {
-            return new AdsVM { 
-            AdsId = ads.Id,
-            Title = ads.Title,
-            Description = ads.Description,
-
+            return new AdsModel
+            {
+                Id = ads.AdsId,
+                Title = ads.Title,
+                Description = ads.Description,
+                ImageUrl=ads.ImageUrl,
+                Price= (float)ads.Price,
+                ContactInformation = ads.ContactInformation,
+                StartDate= (DateTime)ads.StartDate,
+                EndDate= (DateTime)ads.EndDate,
             };
         }
 
-        public AdsModel toAdsModelVM(AdsModel ads)
+
+        public static AdsVM ToViewModel(this AdsModel ads)  
         {
-            return new AdsModel();
+            return new AdsVM { 
+
+            AdsId = ads.Id,
+            Title = ads.Title,
+            Description = ads.Description,
+            ImageUrl = ads.ImageUrl,
+            Price = ads.Price,
+            ContactInformation = ads.ContactInformation,
+            StartDate   = ads.StartDate,
+            EndDate = ads.EndDate,  
+            
+            };
         }
+        public static List<AdsVM> ToViewModel(this List<AdsModel> adsmodel)
+        {
+            return adsmodel.Select(adv => adv.ToViewModel()).ToList();
+        }
+
     }
 }

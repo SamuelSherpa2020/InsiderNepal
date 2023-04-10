@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Ads/AddAds.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRzXEFkZEFkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Ads/DeleteConfirmAds.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRzXERlbGV0ZUNvbmZpcm1BZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Ads/EditAds.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRzXEVkaXRBZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Ads/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

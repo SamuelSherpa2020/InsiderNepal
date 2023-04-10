@@ -11,5 +11,6 @@ namespace InsiderNepalApp.Data
         }
 
         public DbSet<NationalNews> NationalNews { get; set; }
+        public DbSet<AdsModel> AdsModel { get; set; }
     }
 }

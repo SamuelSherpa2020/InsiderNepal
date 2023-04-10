@@ -1,0 +1,93 @@
+﻿@model InsiderNepalApp.ViewModel.AdsVM;
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title style="font-family:monospace">Ads Section</title>
+</head>
+
+<body>
+    <nav class="sidenavbar">
+        <ul style="margin-top:100px;">
+            <li><a asp-controller="Ads" asp-action="index"><i class="fa-solid fa-pen-to-square m-2"></i>Edit</a></li>
+            <li><a asp-controller="Ads" asp-action="index"><i class="fa-solid fa-trash m-2"></i>Delete</a></li>
+            <li><a asp-controller="Ads" asp-action="addads"><i class="fa-solid fa-plus m-2"></i>Add</a></li>
+        </ul>
+    </nav>
+    <div class="navbar-toggle">
+        <a id="navbar-toggle" class="btn btn-primary" style="background-color:rgb(11,35,81); position:fixed;right:10px;" href="#"><i class="fa-solid fa-bars"></i></a>
+    </div>
+    @*Fields for ads: title, description, imageurl, price, contactinformation,
+    startdate, enddate*@
+
+    <div style="justify-content:center; display:flex;">
+
+        <form asp-action="AddAds" method="post" class="col g-10" enctype="multipart/form-data">
+            <h3>Add Advertisements</h3>
+            <div class="mt-4"></div>
+
+            <div class="col-sm-5 col-md-3">
+                <label asp-for="Title" class="form-label">Ad Title</label>
+                <input asp-for="Title" class="form-control" type="text">
+                <span class="text-danger" asp-validation-for="Title"></span>
+            </div>
+            <div class="mt-4 col-sm-8 col-md-6"></div>
+            
+            <div class="col-sm-8 col-md-6">
+                <label asp-for="Description" class="form-label">Ad Description</label>
+                <textarea rows="5" class="form-control" asp-for="Description" type="text"></textarea>
+                <span class="text-danger" asp-validation-for="Description"></span>
+            </div>
+            <div class="mt-4"></div>
+            <div class="col-sm-6 col-md-5">
+                <label asp-for="AdsAvatar" class="form-label">Ad Image</label><br />
+                <input asp-for="AdsAvatar" class="form-control" />
+                <span asp-validation-for="AdsAvatar" class="text-danger"></span>
+            </div>
+            <div class="mt-4"></div>
+            
+            <div class="col-sm-5 col-md-4">
+                <label asp-for="Price" class="form-label">Ad Price</label>
+                <input asp-for="Price" class="form-control" type="number">
+                <span class="text-danger" asp-validation-for="Price"></span>
+            </div>
+            <div class="mt-4"></div>
+
+            <div class=" col-sm-5 col-md-5">
+                <label class="form-label" asp-for="ContactInformation">Contanct Info</label>
+                <input class="form-control" type="text" asp-for="ContactInformation" />
+                <span asp-validation-for="ContactInformation" class="text-danger"></span>
+            </div>
+            <div class="mt-4"></div>
+
+            <div class=" col-sm-5 col-md-5">
+                <label class="form-label" asp-for="StartDate">Start DateTime</label>
+                <input class="form-control" type="datetime-local" asp-for="StartDate" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="mt-4"></div>
+            <div class=" col-sm-5 col-md-5">
+                <label class="form-label" asp-for="EndDate">End DateTime</label>
+                <input class="form-control" type="datetime-local" asp-for="EndDate" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="mt-4"></div>
+
+            <button type="submit" class="btn btn-primary">Publish</button>
+        </form>
+    </div>
+
+    <script>
+        const navbarToggle = document.getElementById("navbar-toggle");
+        const sideNavbar = document.querySelector(".sidenavbar");
+
+        navbarToggle.addEventListener("click", () => {
+            sideNavbar.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>
+
