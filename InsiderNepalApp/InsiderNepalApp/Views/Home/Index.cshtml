@@ -1,8 +1,146 @@
-﻿<h3 class="newsTopic">News Home For</h3>
-<ul class="newsHeadLine  ">
+﻿@model InsiderNepalApp.ViewModel.HomeViewModel
+@{
+    ViewData["Title"] = "InsiderNews";
+}
+@*Below is a for code to show National and Global news in two rows*@
+<div class="col-md-12 row">
+    
+
+    <div class="row col-md-8">
+    <img src="@Model.AdsVM[8].ImageUrl"/>
+        <div class="col-md-6 col-sm-12">
+            @if (Model.NationalNewsVM.Count >= 3 && Model.BussinessNewsVM.Count >=3)
+            {
+                @for (int i = 0; i <= 1; i++)
+                {
+                    <div class="pb-2 col-sm-6 col-md-12 border-bottom border-right">
+                        <div class="mt-5">
+                            <div class="col-md-12 col-sm-6">
+                                
+                                <img src="@Model.NationalNewsVM[@i].ImageUrl" class=" col-md-6 h-100 w-100" style="width:100%; height:100%; object-fit:cover; border-radius:10px;" />
+                            </div>
+                            <div class="mt-4 col-md-12 col-sm-12">
+                                <div class="dateAndAuthor">
+                                    <p class="text-black-50">@Model.NationalNewsVM[@i].PublishDateTime.ToString("MMM dd, yyyy")</p>
+                                </div>
+                                <div class="newsHeadLine">
+                                    <h3 class="card-title">@Model.NationalNewsVM[@i].Title</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pb-2 col-sm-6 col-md-12 border-bottom border-right">
+                        <div class="mt-5">
+                            <div class="col-md-12 col-sm-6">
+                                <img src="@Model.BussinessNewsVM[@i].ImageUrl" class=" col-md-6 h-100 w-100" style="width:100%; height:100%; object-fit:cover; border-radius:10px;" />
+                            </div>
+                            <div class="mt-4 col-md-12 col-sm-12">
+                                <div class="dateAndAuthor">
+                                    <p class="text-black-50">@Model.BussinessNewsVM[@i].PublishDateTime.ToString("MMM dd, yyyy")</p>
+                                </div>
+                                <div class="newsHeadLine">
+                                    <h3 class="card-title">@Model.BussinessNewsVM[@i].Title</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+        <div class="col-md-6 col-sm-12">
+            @if (Model.GlobalNewsVM.Count >= 5)
+            {
+                @for (int i = 0; i <= 4; i++)
+                {
+                    <div class="pb-2 col-sm-6 col-md-12 border-bottom border-right">
+                        <div class="mt-5">
+                            <div class="col-md-12 col-sm-6">
+                                <img src="@Model.GlobalNewsVM[@i].ImageUrl" class=" col-md-6 h-100 w-100" style="width:100%; height:100%; object-fit:cover; border-radius:10px;" />
+                            </div>
+                            <div class="mt-4 col-md-12 col-sm-12">
+                                <div class="dateAndAuthor">
+                                    <p class="text-black-50">@Model.GlobalNewsVM[@i].PublishDateTime.ToString("MMM dd, yyyy")</p>
+                                </div>
+                                <div class="newsHeadLine">
+                                    <h3 class="card-title">@Model.GlobalNewsVM[@i].Title</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+    <div class="col-md-4">
+       
+        @if (Model.AdsVM.Count >= 3)
+        {
+            @for (int i = 0; i <= 2; i++)
+            {
+                <div class="col-md-12 mt-5">
+                    <div>
+                        <img src="@Model.AdsVM[@i].ImageUrl" class="col-md-12" style="object-fit:cover; border-radius:10px;" /><div>
+                        </div>
+                    </div>
+                </div>
+                //for Culture
+                <div class="pb-2 col-sm-6 col-md-12 border-bottom border-right">
+                    <div class="mt-5">
+                        <div class="col-md-6 col-sm-6" style="width:200px; height: 180px;">
+                            <img src="@Model.CultureNewsVM[@i].ImageUrl" class=" col-md-6 h-100 w-100" style="width:100%; height:100%; object-fit:cover; border-radius:10px;" />
+                        </div>
+                        <div class="mt-4 col-md-12 col-sm-12">
+                            <div class="dateAndAuthor">
+                                <p class="text-black-50">@Model.CultureNewsVM[@i].PublishDateTime.ToString("MMM dd, yyyy")</p>
+                            </div>
+                            <div class="newsHeadLine">
+                                <h3 class="card-title">@Model.CultureNewsVM[@i].Title</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+@*
+
+
+    </div>
+    @foreach (var nnews in Model.NationalNewsVM)
+    {
+
+    <div class="pb-2 col-sm-6 col-md-4 border-bottom border-right">
+    <div class="mt-5">
+    <div class="col-md-6 col-sm-6" style="width:270px; height: 200px;">
+    <img src="@nnews.ImageUrl" class=" col-md-6 h-100 w-100" style="width:100%; height:100%; object-fit:cover; border-radius:10px;" />
+    </div>
+    <div class="mt-4 col-md-12 col-sm-12">
+    <div class="dateAndAuthor">
+    <p class="text-black-50">@nnews.PublishDateTime.ToString("MMM dd, yyyy")</p>
+    </div>
+    <div class="newsHeadLine">
+    <h3 class="card-title">@nnews.Title</h3>
+    </div>
+    </div>
+    </div>
+    </div>*@
+@* <div class="newsContent">
+    <p style="font-weight:bold">@nnews.Content</p>
+    </div>*@
+@*<div class="dateAndAuthor">
+    <p class="text-black-50">- @nnews.Author</p>
+    </div>*@
+@* <a class="btn btn-success" style="background-color:rgb(43,97,58)" href="/GlobalNews/EditGlobalNews?id=@nnews.GlobalNewsId">Edit</a>
+    <a asp-controller="GlobalNews" asp-action="DeleteConfirm" asp-route-id="@nnews.GlobalNewsId" class="btn btn-danger" style="background-color:rgb(158,3,13)">Delete</a>
+    *@
+
+
+
+@*<h3 class="newsTopic">News Home For</h3>
+    <ul class="newsHeadLine  ">
     <li>National News</li>
     <li>Global News</li>
     <li>Bussiness News</li>
     <li>Journal News</li>
-    <li>Culture And LifeStyle News</li>
-</ul>
+    <li>Culture And LifeStyle News</li>*@

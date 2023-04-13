@@ -1,5 +1,18 @@
 ﻿@model InsiderNepalApp.ViewModel.NationalNewsVM;
-
+<nav class="sidenavbar">
+    <ul style="margin-top:100px;">
+        <li><a asp-controller="NationalNews" asp-action="index"><i class="fa-solid fa-pen-to-square m-2"></i>Edit</a></li>
+        <li><a asp-controller="NationalNews" asp-action="index"><i class="fa-solid fa-trash m-2"></i>Delete</a></li>
+        <li><a asp-controller="NationalNews" asp-action="addnews"><i class="fa-solid fa-plus m-2"></i>Add</a></li>
+    </ul>
+</nav>
+<div class="navbar-toggle">
+    <a id="navbar-toggle" class="btn btn-primary" style="background-color:rgb(11,35,81); position:fixed;right:10px;" href="#"><i class="fa-solid fa-bars"></i></a>
+</div>
+<div style="padding-bottom:60px"></div>
+<div class="newsTopic">
+    <div class="text-center h2">Global News</div>
+</div>
 <form asp-action="AddNews" method="post" class="col g-10" enctype="multipart/form-data">
    
     <h3>Add National News</h3>
@@ -46,3 +59,14 @@
     
     <button type="submit" class="btn btn-primary">Publish</button>
 </form>
+
+
+
+<script>
+    const navbarToggle = document.getElementById("navbar-toggle");
+    const sideNavbar = document.querySelector(".sidenavbar");
+
+    navbarToggle.addEventListener("click", () => {
+        sideNavbar.classList.toggle("active");
+    });
+</script>

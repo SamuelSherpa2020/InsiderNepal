@@ -37,7 +37,7 @@ namespace InsiderNepalApp.Controllers
 
             if (nationalNewsVM == null || !ModelState.IsValid)
             {
-                // return View("Error", new ErrorViewModel { RequestId = "Register News" });
+                //return View("Error", new ErrorViewModel { RequestId = "Register News" });
                 return View();
             }
 
@@ -122,7 +122,6 @@ namespace InsiderNepalApp.Controllers
             }
             catch (Exception ex)
             {
-
             }
             return RedirectToAction("Index");
         }

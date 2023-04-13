@@ -1,5 +1,7 @@
 ﻿@model IEnumerable<InsiderNepalApp.ViewModel.NationalNewsVM>
-@*@model IEnumerable<InsiderNepalApp.ViewModel.AdsVM>*@
+@{
+    ViewData["Title"] = "NationalNews";
+}
 <!DOCTYPE html>
 
 <html>
@@ -22,7 +24,7 @@
 
 
 
-    <div style="padding-bottom:60px"></div>
+    <div style="padding-bottom:20px"></div>
     <div class="newsTopic">
         <div class="text-center h2">National News</div>
     </div>
@@ -41,7 +43,10 @@
                     </div>
                     <div class="newsContent">
 
-                        <p style="font-weight:bold">@nnews.Content</p>
+                        <p style="font-weight:bold">
+                            @{string selectWords = string.Join(" ", @nnews.Content.Split(' ', StringSplitOptions.RemoveEmptyEntries).Take(80))+" . . . . . .";
+                        }</p>
+                        @selectWords
                     </div>
                     <div class="dateAndAuthor">
                         <p class="text-black-50">- @nnews.Author</p>
@@ -54,7 +59,7 @@
 
                 @*for edit and delete button *@
             </div>
-            <a class="btn btn-success" style="background-color:rgb(43,97,58)" href="/NationalNews/EditNationalNews?id=@nnews.NationalNewsId">Edit</a>
+            <a asp-controller="NationalNews" asp-action="EditNationalNews" asp-route-id="@nnews.NationalNewsId" class="btn btn-success" style="background-color:rgb(43,97,58)">Edit</a>
             <a class="btn btn-danger" style="background-color:rgb(158,3,13)" href="/NationalNews/DeleteConfirmNN?id=@nnews.NationalNewsId">Delete</a>
         </div>
 

@@ -1,0 +1,72 @@
+﻿@model InsiderNepalApp.ViewModel.BussinessNewsVM;
+<nav class="sidenavbar">
+    <ul style="margin-top:100px;">
+        <li><a asp-controller="BussinessNews" asp-action="Index"><i class="fa-solid fa-pen-to-square m-2"></i>Edit</a></li>
+        <li><a asp-controller="BussinessNews" asp-action="Index"><i class="fa-solid fa-trash m-2"></i>Delete</a></li>
+        <li><a asp-controller="BussinessNews" asp-action="AddBussinessNews"><i class="fa-solid fa-plus m-2"></i>Add</a></li>
+    </ul>
+</nav>
+<div class="navbar-toggle">
+    <a id="navbar-toggle" class="btn btn-primary" style="background-color:rgb(11,35,81); position:fixed;right:10px;" href="#"><i class="fa-solid fa-bars"></i></a>
+</div>
+<div style="padding-bottom:60px"></div>
+<div class="newsTopic">
+    <div class="text-center h2">Global News</div>
+</div>
+<form asp-action="AddBussinessNews" method="post" class="col g-10" enctype="multipart/form-data">
+
+    <h3>Add Bussiness News</h3>
+    <div class="mt-4 col-md-12"></div>
+
+    <div class="col-sm-5 col-md-5">
+        <label asp-for="Title" class="form-label">News Title</label>
+        <input asp-for="Title" type="text" class="form-control">
+        <span class="text-danger" asp-validation-for="Title"></span>
+    </div>
+    <div class="mt-4 col-md-12"></div>
+
+    <div class="col-sm-8">
+        <label asp-for="Content" class="form-label">News Content</label>
+        <textarea rows="5" class="form-control" asp-for="Content" type="text"></textarea>
+        <span class="text-danger" asp-validation-for="Content"></span>
+    </div>
+
+    <div class="mt-4 col-md-12"></div>
+
+
+    <div class="mb-3 col-md-5">
+        <label asp-for="Avatar" class="form-label">News Image</label><br />
+        <input class="form-control" asp-for="Avatar">
+        <span class="text-danger" asp-validation-for=Content></span>
+
+    </div>
+
+    <div class="mt-4 col-md-12"></div>
+
+    <div class="col-sm-8">
+        <label asp-for="PublishDateTime" class="form-label">Publish Date</label>
+        <input asp-for="PublishDateTime" type="date" class="form-control">
+        <span class="text-danger" asp-validation-for="Content"></span>
+    </div>
+    <div class="mt-4 col-md-12"></div>
+
+    <div class="col-sm-5">
+        <label asp-for="Author" class="form-label">Author Name</label>
+        <input asp-for="Author" type="text" class="form-control" />
+        <span class="text-danger" asp-validation-for="Author"></span>
+    </div>
+    <div class="mt-4 col-md-12"></div>
+
+    <button type="submit" class="btn btn-primary">Publish</button>
+</form>
+
+
+
+<script>
+    const navbarToggle = document.getElementById("navbar-toggle");
+    const sideNavbar = document.querySelector(".sidenavbar");
+
+    navbarToggle.addEventListener("click", () => {
+        sideNavbar.classList.toggle("active");
+    });
+</script>

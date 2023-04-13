@@ -41,7 +41,7 @@
 
     <div class="col-sm-8">
         <label asp-for="PublishDateTime" class="form-label">Publish Date</label>
-        <input asp-for="PublishDateTime" type="date" class="form-control">a
+        <input asp-for="PublishDateTime" type="date" class="form-control">
         <span class="text-danger" asp-validation-for="Content"></span>
     </div>
     <div class="mt-4 col-md-12"></div>
@@ -54,5 +54,5 @@
     <div class="mt-4 col-md-12"></div>
 
     <button type="submit" class="btn btn-primary custom-btn" style="background-color:#00308F">Update</button>
-    <a href="/NationalNews/Index" class="btn btn-dark custom-btn" style="background-color:#5B3B8C">Back</a>
+    <a asp-controller="NationalNews" asp-action="Index" class="btn btn-dark custom-btn" style="background-color:#5B3B8C">Back</a>
 </form>

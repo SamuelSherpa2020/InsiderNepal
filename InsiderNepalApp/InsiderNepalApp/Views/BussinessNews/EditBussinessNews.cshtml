@@ -1,0 +1,58 @@
+﻿@model InsiderNepalApp.ViewModel.BussinessNewsVM;
+
+
+<div class="text-center h2" style="font-family:Consolas">Edit Bussiness News</div>
+
+<form asp-action="EditBussinessNews" method="post" enctype="multipart/form-data">
+    <input class="form-control" type="hidden" asp-for="BussinessNewsVMId" />
+
+    <div class="col-sm-5">
+        <label asp-for="Title" class="form-label">News Title</label>
+        <input asp-for="Title" type="text" class="form-control">
+        <span class="text-danger" asp-validation-for="Title"></span>
+    </div>
+    <div class="mt-4 col-md-12"></div>
+
+    <div class="col-sm-8">
+        <label asp-for="Content" class="form-label">News Content</label>
+        <textarea rows="5" class="form-control" asp-for="Content" type="text"></textarea>
+        <span class="text-danger" asp-validation-for="Content"></span>
+    </div>
+
+    <div class="mt-4 col-md-12"></div>
+
+
+    <div class="mb-3 col-md-5">
+        <div class="row">
+            <div>
+                <label asp-for="Avatar" class="form-label">News Image</label><br />
+                <input class="form-control" asp-for="Avatar">
+            </div>
+            <div class="mt-4 col-md-12"></div>
+
+            <div>
+                <img src="@Model.ImageUrl" style="height:100%; width:100%; border-radius:10px" />
+            </div>
+        </div>
+
+    </div>
+    <input type="hidden" asp-for="ImageUrl" />
+    <div class="mt-4 col-md-12"></div>
+
+    <div class="col-sm-8">
+        <label asp-for="PublishDateTime" class="form-label">Publish Date</label>
+        <input asp-for="PublishDateTime" type="date" class="form-control">
+        <span class="text-danger" asp-validation-for="Content"></span>
+    </div>
+    <div class="mt-4 col-md-12"></div>
+
+    <div class="col-sm-5">
+        <label asp-for="Author" class="form-label">Author Name</label>
+        <input asp-for="Author" type="text" class="form-control" />
+        <span class="text-danger" asp-validation-for="Author"></span>
+    </div>
+    <div class="mt-4 col-md-12"></div>
+
+    <button type="submit" class="btn btn-primary custom-btn" style="background-color:#00308F">Update</button>
+    <a asp-controller="BussinessNews" asp-action="Index" class="btn btn-dark custom-btn" style="background-color:#5B3B8C">Back</a>
+</form>

@@ -32,12 +32,68 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/BussinessNews/AddBussinessNews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzc2luZXNzTmV3c1xBZGRCdXNzaW5lc3NOZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/BussinessNews/DeleteConfirmBN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzc2luZXNzTmV3c1xEZWxldGVDb25maXJtQk4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/BussinessNews/EditBussinessNews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzc2luZXNzTmV3c1xFZGl0QnVzc2luZXNzTmV3cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/BussinessNews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzc2luZXNzTmV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Culture/AddCultureNews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VsdHVyZVxBZGRDdWx0dXJlTmV3cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Culture/DeleteConfirmCN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VsdHVyZVxEZWxldGVDb25maXJtQ04uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Culture/EditCultureNews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VsdHVyZVxFZGl0Q3VsdHVyZU5ld3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Culture/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VsdHVyZVxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/GlobalNews/AddGlobalNews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2xvYmFsTmV3c1xBZGRHbG9iYWxOZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/GlobalNews/DeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2xvYmFsTmV3c1xEZWxldGVDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/GlobalNews/EditGlobalNews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2xvYmFsTmV3c1xFZGl0R2xvYmFsTmV3cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/GlobalNews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2xvYmFsTmV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Journal/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91cm5hbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Journal/JournalIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91cm5hbFxKb3VybmFsSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/NationalNews/AddNews.cshtml]

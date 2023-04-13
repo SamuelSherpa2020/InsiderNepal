@@ -6,10 +6,13 @@ public class AdsVM
 {
 
     public int AdsId { get; set; }
+    
     [Required]
+    [StringLength(200, ErrorMessage = "Title Cannot be longer than 100 characters")]
     public string? Title { get; set; }
     
     [Required]
+    [StringLength(10000, ErrorMessage = "Description Cannot be longer than 100 characters")]
     public string? Description { get; set; }
 
    

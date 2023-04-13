@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -9,11 +9,10 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\National\" />
     <Folder Include="wwwroot\images\Ads\" />
-    <Folder Include="wwwroot\images\Profile\" />
-    <Folder Include="wwwroot\img\GlobalImg\" />
-    <Folder Include="wwwroot\img\BusinessImg\" />
-    <Folder Include="wwwroot\img\JournalImg\" />
-    <Folder Include="wwwroot\img\ArticleImg\" />
+    <Folder Include="wwwroot\images\Global\" />
+    <Folder Include="wwwroot\images\Bussiness\" />
+    <Folder Include="wwwroot\images\Culture\" />
+    <Folder Include="wwwroot\images\Journal\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
+﻿
 using System.ComponentModel.DataAnnotations;
 
 namespace InsiderNepalApp.ViewModel
@@ -12,11 +12,11 @@ namespace InsiderNepalApp.ViewModel
 
 
         [Required]
-        [StringLength(100, ErrorMessage = "Title Cannot be longer than 100 characters")]
+        [StringLength(300, ErrorMessage = "Title Cannot be longer than 100 characters")]
         public string? Title { get; set; }
 
         [Required]
-        [StringLength(150, ErrorMessage = "Author name Cannot be longer than 100 characters")]
+        [StringLength(200, ErrorMessage = "Author name Cannot be longer than 100 characters")]
         public string Author { get; set; } = string.Empty;
 
 
@@ -26,7 +26,7 @@ namespace InsiderNepalApp.ViewModel
         public DateTime PublishDateTime { get; set; }
 
         [Required]
-        [StringLength(2000, ErrorMessage = "Content cannot be more than 2000 characters")]
+        [StringLength(10000, ErrorMessage = "Content cannot be more than 2000 characters")]
         public string Content { get; set; } = string.Empty;
 
       
