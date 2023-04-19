@@ -4,6 +4,7 @@ using InsiderNepalApp.Mapper;
 using InsiderNepalApp.Models;
 using InsiderNepalApp.ViewModel;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 namespace InsiderNepalApp.Controllers
 {
@@ -89,7 +90,7 @@ namespace InsiderNepalApp.Controllers
                 _ctx.SaveChanges();
                 return RedirectToAction("Index");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 TempData["msg"] = "Could not be added";
                 return View();
@@ -113,7 +114,7 @@ namespace InsiderNepalApp.Controllers
             try
             {
                 var nnews = nationalNewsVM.ToModel();
-                if(nnews != null)
+                if (nnews != null)
                 {
                     _ctx.NationalNews.Remove(nnews);
                     _ctx.SaveChanges();
@@ -124,6 +125,39 @@ namespace InsiderNepalApp.Controllers
             {
             }
             return RedirectToAction("Index");
+        }
+
+        public IActionResult ReadNationalNews()
+        {
+            var nnews = _ctx.NationalNews.ToList();
+            var nnewsVM = nnews.ToViewModel();
+
+            var ads = _ctx.AdsModel.ToList();
+            var adsVM = ads.ToViewModel();
+            NationalAdsViewModel navm = new()
+            {
+                NationalNewsVM = nnewsVM,
+                AdsVM = adsVM
+            };
+
+            return View(navm);
+        }
+        public IActionResult ShowNewsInDetail(int id)
+        {
+            var nnews = _ctx.NationalNews.Where(x => x.NationalNewsId == id).ToList();
+
+            var nnewsVM = nnews.ToViewModel();
+
+            var ads = _ctx.AdsModel.ToList();
+            var adsVM = ads.ToViewModel();
+
+            NationalAdsViewModel nav = new()
+            {
+                NationalNewsVM = nnewsVM,
+                AdsVM = adsVM,
+            };
+
+            return View(nav);
         }
     }
 }

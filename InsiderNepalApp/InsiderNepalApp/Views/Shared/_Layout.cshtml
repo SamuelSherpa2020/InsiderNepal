@@ -11,7 +11,7 @@
     <link href="~/font-awesome/css/all.css" rel="stylesheet" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow border-bottom fixed-top pb-0 mb-5" style="display:flex; flex-wrap:wrap; background-color:rgb(11,35,81);">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow border-bottom fixed-top  pb-0 mb-5" style="display:flex; flex-wrap:wrap; background-color:rgb(11,35,81); padding-left:10px;">
         <div class="navbarHome">
             <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">InsiderNepalApp</a>
         </div>
@@ -28,7 +28,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link text-white" asp-area="" asp-controller="NationalNews" asp-action="Index">National</a>
+                        <a class="nav-link text-white" asp-area="" asp-controller="NationalNews" asp-action="ReadNationalNews">National</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" asp-area="" asp-controller="GlobalNews" asp-action="Index">Global</a>
@@ -53,7 +53,7 @@
 
 
 
-    <div class="container-fluid p-5">
+    <div class="container-fluid overflow-hidden p-5">
         <main role="main" class="mt-5 pt-2 mb-5">
             @RenderBody()
 

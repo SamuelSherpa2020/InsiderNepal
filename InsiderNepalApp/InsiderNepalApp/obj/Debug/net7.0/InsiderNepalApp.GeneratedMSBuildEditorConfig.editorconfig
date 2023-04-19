@@ -88,6 +88,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Home/ReadParticularNews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWFkUGFydGljdWxhck5ld3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Journal/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm91cm5hbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -110,6 +114,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/NationalNews/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0aW9uYWxOZXdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/NationalNews/ReadNationalNews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0aW9uYWxOZXdzXFJlYWROYXRpb25hbE5ld3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/NationalNews/ShowNewsInDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF0aW9uYWxOZXdzXFNob3dOZXdzSW5EZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Silicon Soft/InsiderNepal/InsiderNepalApp/InsiderNepalApp/Views/Shared/Error.cshtml]

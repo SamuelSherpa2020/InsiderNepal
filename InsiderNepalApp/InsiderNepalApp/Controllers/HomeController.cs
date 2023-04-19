@@ -25,10 +25,10 @@ namespace InsiderNepalApp.Controllers
         {
             var nNews = _ctx.NationalNews.ToList();
             var nlNews = nNews.ToViewModel();
-            
+
             var gNews = _ctx.GlobalNews.ToList();
             var glNews = gNews.ToViewModel();
-            
+
             var bNews = _ctx.BussinessNews.ToList();
             var blNews = bNews.ToViewModel();
 
@@ -50,11 +50,69 @@ namespace InsiderNepalApp.Controllers
             };
 
             return View(hmv);
-            
+
             //var gNews = _ctx.GlobalNews.ToList();
             //gNews.Reverse();
             //var gNewsVMM = gNews.ToViewModel();
             //return View(gNewsVMM);
+        }
+
+
+        public IActionResult ReadParticularNews(int id, string category)
+        {
+
+
+            //NationalNewsVM, GloblaNewsVM, BussinessNewsVM, CultureNewsVM 
+
+            if (category == "NationalNewsVM")
+            {
+                var nnews = _ctx.NationalNews.Where(x => x.NationalNewsId == id).ToList();
+                var nnewsVM = nnews.ToViewModel();
+                //hmv.NationalNewsVM.Add(nnewsVM); 
+                HomeViewModel hmv = new()
+                {
+                    NationalNewsVM = nnewsVM,
+                    
+                };
+                return View(hmv);
+
+            }
+            else if (category == "BussinessNewsVM")
+            {
+                var bnews = _ctx.BussinessNews.Where(x => x.BussinessNewsId == id).ToList();
+                var bnewsVM = bnews.ToViewModel();
+                HomeViewModel hmv = new()
+                { 
+                    BussinessNewsVM = bnewsVM 
+                };
+                return View(hmv);
+
+            }
+            else if(category == "GlobalNewsVM")
+            {
+                var gnews = _ctx.GlobalNews.Where(x=>x.GlobalId == id).ToList();    
+                var gnewsVM = gnews.ToViewModel();
+                HomeViewModel hmv = new()
+                {GlobalNewsVM= gnewsVM};
+                return View(hmv);
+
+            }
+            else if(category == "CultureNewsVM")
+            {
+                var cnews = _ctx.CultureNews.Where(x=>x.CultureNewsId== id).ToList();
+                var cnewsVM = cnews.ToViewModel();
+                HomeViewModel hmv = new()
+                {CultureNewsVM = cnewsVM};
+                return View(hmv);
+
+            }
+            
+            else
+            {
+                return View();
+
+            }
+
         }
 
         public IActionResult Privacy()
