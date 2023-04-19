@@ -1,5 +1,7 @@
 using InsiderNepalApp.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using InsiderNepalApp.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,8 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // whatever services are needed in application will be declared here.
-builder.Services.AddDbContext<InsiderNepalDbContext>(options
-    => options.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
+builder.Services.AddDbContext<InsiderNepalDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
+
+builder.Services.AddDefaultIdentity<InsiderNepalAppUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<InsiderNepalDbContext>();
 
 var app = builder.Build();
 
@@ -31,4 +34,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}");
 
+
+app.MapRazorPages();
 app.Run();

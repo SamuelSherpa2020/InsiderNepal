@@ -274,3 +274,12 @@ E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\obj\Debug\net7.0\re
 E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\obj\Debug\net7.0\InsiderNepalApp.pdb
 E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\obj\Debug\net7.0\InsiderNepalApp.genruntimeconfig.cache
 E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\obj\Debug\net7.0\ref\InsiderNepalApp.dll
+E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\obj\Debug\net7.0\InsiderNepalApp.MvcApplicationPartsAssemblyInfo.cs

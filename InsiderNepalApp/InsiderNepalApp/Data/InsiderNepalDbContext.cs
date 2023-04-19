@@ -1,9 +1,11 @@
-﻿using InsiderNepalApp.Models;
+﻿using InsiderNepalApp.Areas.Identity.Data;
+using InsiderNepalApp.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace InsiderNepalApp.Data
 {
-    public class InsiderNepalDbContext:DbContext
+    public class InsiderNepalDbContext : IdentityDbContext<InsiderNepalAppUser>
     {
         public InsiderNepalDbContext(DbContextOptions<InsiderNepalDbContext> opts):base(opts)
         {
