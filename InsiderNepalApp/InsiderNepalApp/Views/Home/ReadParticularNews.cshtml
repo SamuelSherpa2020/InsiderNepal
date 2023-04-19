@@ -1,0 +1,70 @@
+﻿@model InsiderNepalApp.ViewModel.HomeViewModel;
+@if(Model.NationalNewsVM != null)
+{
+ 
+
+    <div class="col-md-9  mx-auto">
+        <div class="newsHeadLine"><h2>@Model.NationalNewsVM[0].Title</h2></div>
+            <div class="dateAndAuthor" style="font-size:12px;opacity:0.7"> @Model.NationalNewsVM[0].Author</div>
+            <div class="dateAndAuthor">
+            <p class="text-black-50">@Model.NationalNewsVM[0].PublishDateTime.ToString("MMM dd, yyyy")</p>
+        </div>
+       
+            <div class="col-md-8 col-sm-12 mx-auto">
+                <img src="@Model.NationalNewsVM[0].ImageUrl" class="h-100 w-100" style="width:650px; height:480px;object-fit:cover;border-radius:5px;">
+        </div>
+            <div class="mt-5"></div>
+        <div class="newsContent" style="word-spacing:0.2rem;line-height:1.5; font-size:1.1rem; letter-spacing:0.0001776464rem;word-break:break-all;">@Model.NationalNewsVM[0].Content</div>
+    </div> 
+}
+
+@if(Model.BussinessNewsVM !=null)
+{
+    <div class="col-md-9  mx-auto">
+        <div class="newsHeadLine"><h2>@Model.BussinessNewsVM[0].Title</h2></div>
+        <div class="dateAndAuthor" style="font-size:12px;opacity:0.7"> @Model.BussinessNewsVM[0].Author</div>
+        <div class="dateAndAuthor">
+            <p class="text-black-50">@Model.BussinessNewsVM[0].PublishDateTime.ToString("MMM dd, yyyy")</p>
+        </div>
+
+        <div class="col-md-8 col-sm-12 mx-auto">
+            <img src="@Model.BussinessNewsVM[0].ImageUrl" class="h-100 w-100" style="width:650px; height:480px;object-fit:cover;border-radius:5px;">
+        </div>
+        <div class="mt-5 mx-auto"></div>
+        <div class="newsContent" style="word-spacing:0.2rem; font-size:1.1rem;line-height:1.5; letter-spacing:0.0001776464rem; word-break:break-all;">@Model.BussinessNewsVM[0].Content</div>
+    </div>
+}
+
+@if(Model.GlobalNewsVM !=null)
+{
+    <div class="col-md-9  mx-auto">
+        <div class="newsHeadLine"><h2>@Model.GlobalNewsVM[0].Title</h2></div>
+        <div class="dateAndAuthor" style="font-size:12px;opacity:0.7"> @Model.GlobalNewsVM[0].Author</div>
+        <div class="dateAndAuthor">
+            <p class="text-black-50">@Model.GlobalNewsVM[0].PublishDateTime.ToString("MMM dd, yyyy")</p>
+        </div>
+
+        <div class="col-md-8 col-sm-12 mx-auto">
+            <img src="@Model.GlobalNewsVM[0].ImageUrl" class="h-100 w-100" style="width:650px; height:480px;object-fit:cover;border-radius:5px;">
+        </div>
+        <div class="mt-5 mx-auto"></div>
+        <div class="newsContent" style="word-spacing:0.2rem; font-size:1.1rem;line-height:1.5; letter-spacing:0.0001776464rem;word-break:break-all;">@Model.GlobalNewsVM[0].Content</div>
+    </div>
+}
+
+@if(Model.CultureNewsVM !=null)
+{
+    <div class="col-md-9  mx-auto">
+        <div class="newsHeadLine"><h2>@Model.CultureNewsVM[0].Title</h2></div>
+        <div class="dateAndAuthor" style="font-size:12px;opacity:0.7"> @Model.CultureNewsVM[0].Author</div>
+        <div class="dateAndAuthor">
+            <p class="text-black-50">@Model.CultureNewsVM[0].PublishDateTime.ToString("MMM dd, yyyy")</p>
+        </div>
+
+        <div class="col-md-8 col-sm-12 mx-auto">
+            <img src="@Model.CultureNewsVM[0].ImageUrl" class="h-100 w-100" style="width:650px; height:480px;object-fit:cover;border-radius:5px;">
+        </div>
+        <div class="mt-5 mx-auto"></div>
+        <div class="newsContent" style="word-spacing:0.2rem; font-size:1.1rem;line-height:1.5; letter-spacing:0.0001776464rem;word-break:break-all;">@Model.CultureNewsVM[0].Content</div>
+    </div>
+}
