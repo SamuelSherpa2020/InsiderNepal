@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rc4So6HSw/ivoY+VhfhHukamG1otuOE7becmIvWISts=",
+  "Hash": "zy9dT0AWkD9FRayq/ln2VU5gnpL0JmejfprPniiwQpM=",
   "Source": "InsiderNepalApp",
   "BasePath": "_content/InsiderNepalApp",
   "Mode": "Default",
@@ -2550,6 +2550,23 @@
       "OriginalItemSpec": "wwwroot\\images\\Ads\\9e23ac30-486b-458c-994a-8f08afdc34bf_Bycycle ads.gif"
     },
     {
+      "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\bc2e6797-1936-4f56-8300-25feac63b02f_ncc_bank.gif",
+      "SourceId": "InsiderNepalApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\",
+      "BasePath": "_content/InsiderNepalApp",
+      "RelativePath": "images/Ads/bc2e6797-1936-4f56-8300-25feac63b02f_ncc_bank.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Ads\\bc2e6797-1936-4f56-8300-25feac63b02f_ncc_bank.gif"
+    },
+    {
       "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\bd600b77-6d9e-4713-8fad-c59a3d04fd5b_yeti-airlines.gif",
       "SourceId": "InsiderNepalApp",
       "SourceType": "Discovered",
@@ -2565,6 +2582,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Ads\\bd600b77-6d9e-4713-8fad-c59a3d04fd5b_yeti-airlines.gif"
+    },
+    {
+      "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\cf7d67ef-d492-498f-a73e-b41d4a5ac308_mitsubishi.gif",
+      "SourceId": "InsiderNepalApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\",
+      "BasePath": "_content/InsiderNepalApp",
+      "RelativePath": "images/Ads/cf7d67ef-d492-498f-a73e-b41d4a5ac308_mitsubishi.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Ads\\cf7d67ef-d492-498f-a73e-b41d4a5ac308_mitsubishi.gif"
     },
     {
       "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\d35281a1-dc7e-4480-b9cb-ae5696da0634_pova3.jpg",

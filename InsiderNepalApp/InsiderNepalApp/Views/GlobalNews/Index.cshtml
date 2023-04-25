@@ -16,7 +16,7 @@
 <div class="newsTopic">
     <div class="text-center h2">Global News</div>
 </div>
-
+@*
 @foreach (var nnews in Model)
 {
     <div class="pb-3 border-bottom" style="width:44rem">
@@ -36,18 +36,73 @@
                     <p class="text-black-50">- @nnews.Author</p>
                 </div>
             </div>
-            @*different ways of fitting image in the given dev: fill, contain, cover none, scale-down*@
+            different ways of fitting image in the given dev: fill, contain, cover none, scale-down
             <div class="col-md-6 col-sm-6" style="width:300px; height: 220px;">
                 <img src="@nnews.ImageUrl" class=" col-md-6 h-100 w-100" style="width:100%; height:100%; object-fit:cover; border-radius:10px;" />
             </div>
 
-            @*for edit and delete button *@
+            @*for edit and delete button 
         </div>
         <a class="btn btn-success" style="background-color:rgb(43,97,58)" href="/GlobalNews/EditGlobalNews?id=@nnews.GlobalNewsId">Edit</a>
         <a asp-controller="GlobalNews" asp-action="DeleteConfirm" asp-route-id="@nnews.GlobalNewsId" class="btn btn-danger" style="background-color:rgb(158,3,13)">Delete</a>
     </div>
 
-}
+}*@
+
+<table class="table border-primary table-bordered">
+
+    <thead>
+        <tr>
+            <th>S.N</th>
+            <th>News</th>
+            <th>Content</th>
+            <th>Image</th>
+            <th>Publish Date</th>
+            <th>Author Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+        }
+        @foreach (var news in Model)
+        {
+            <div>
+                @{
+                    string newsContent = string.Join(" ", @news.Content.Split(' ', StringSplitOptions.RemoveEmptyEntries).Take(10)) + " ....";
+                }
+            </div>
+
+            <tr>
+                <td>@i</td>
+                <td>@news.Title</td>
+                <td>@newsContent</td>
+                <td><img src="@news.ImageUrl" style="height:50px;"></td>
+                <td>@news.PublishDateTime.ToString("ddd, MMM dd yyyy")</td>
+                <td>@news.Author</td>
+                <td>
+                    <a asp-controller="GlobalNews" asp-action="EditGlobalNews" asp-route-id="@news.GlobalNewsId" class="btn btn-success" style="background-color:rgb(43,97,58)">Edit</a>
+                    <a class="btn btn-danger" style="background-color:rgb(158,3,13)" href="/GlobalNews/DeleteConfirm?id=@news.GlobalNewsId">Delete</a>
+                </td>
+            </tr>
+            <div>
+                @{
+                    i++;
+                }
+            </div>
+        }
+    </tbody>
+</table>
+<script>
+    const navbarToggle = document.getElementById("navbar-toggle");
+    const sideNavbar = document.querySelector(".sidenavbar");
+    navbarToggle.addEventListener("click", () => {
+        sideNavbar.classList.toggle("active");
+    });
+</script>
+
+
 
 <script>
     const navbarToggle = document.getElementById("navbar-toggle");
