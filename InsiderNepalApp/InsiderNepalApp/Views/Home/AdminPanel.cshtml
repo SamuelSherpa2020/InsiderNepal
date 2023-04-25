@@ -1,0 +1,87 @@
+﻿@model InsiderNepalApp.ViewModel.AdminPanelVM;
+@{
+    var nnewsNo = Model.countingnews.FirstOrDefault(d => d.Key.Contains("NationalNews"));
+    var gnewsNo = Model.countingnews.FirstOrDefault(d => d.Key.Contains("GlobalNews"));
+    var bnewsNo = Model.countingnews.FirstOrDefault(d => d.Key.Contains("BussinessNews"));
+    var cnewsNo = Model.countingnews.FirstOrDefault(d => d.Key.Contains("CultureNews"));
+}
+<html>
+<body>
+    <nav class="sidefixnavbar">
+        <ul style="margin-top:100px;">
+            <li><a asp-controller="NationalNews" asp-action="index"><i class="fa-solid fa-pen-to-square m-2"></i>Edit</a></li>
+            <li><a asp-controller="NationalNews" asp-action="index"><i class="fa-solid fa-trash m-2"></i>Delete</a></li>
+            <li><a asp-controller="NationalNews" asp-action="addnews"><i class="fa-solid fa-plus m-2"></i>Add</a></li>
+        </ul>
+    </nav>
+    <div>
+        <div class="navbar">
+            <a id="navbar-toggle" class="btn btn-primary" style="background-color:rgb(11,35,81); position:fixed;right:10px;" href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+
+        <div class="col-md-12 col-sm-12" style="margin-left:10%;">
+            <div style="display:flex;justify-content:center;">
+
+                <div class="row">
+                    <a asp-controller="NationalNews" asp-action="Index">
+                        <div class="text-white bg-primary mb-3 col-sm-6 col-md-6" style="max-width: 18rem; border-radius:8px;">
+                            <div class="card-header newsTopicAdmin">National News</div>
+                            <div class="card-body">
+                                <h5 class="card-title">@nnewsNo.Value</h5>
+                                <p class="newsSubContent">There are @nnewsNo.Value National News</p>
+                            </div>
+                        </div>
+                    </a>
+                        <div style="height:30px;"></div>
+                    <a asp-controller="GlobalNews" asp-action="Index">
+                        <div class="text-white bg-secondary mb-3 col-sm-6 col-md-6" style="max-width: 18rem;border-radius:8px;">
+                            <div class="card-header newsTopicAdmin">Global News</div>
+                            <div class="card-body">
+                                <h5 class="card-title">@gnewsNo.Value</h5>
+                                <p class="newsSubContent">There are @gnewsNo.Value Global News</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="row">
+                    <a asp-controller="BussinessNews" asp-action="Index">
+                        <div class="text-white bg-success mb-3 col-sm-6 col-md-6" style="max-width: 18rem;border-radius:8px;">
+                            <div class="card-header newsTopicAdmin">Bussiness News</div>
+                            <div class="card-body">
+                                <h5 class="card-title">@bnewsNo.Value</h5>
+                                <p class="newsSubContent">@bnewsNo.Value Bussiness News Present.</p>
+                            </div>
+                        </div>
+                    </a>
+                        <div style="height:30px;"></div>
+                    <a asp-controller="Culture" asp-action="Index">
+                        <div class="text-white bg-dark mb-3 col-sm-6 col-md-6" style="max-width: 18rem;border-radius:8px;">
+                            <div class="card-header newsTopicAdmin">Cultural News</div>
+                            <div class="card-body">
+                                <h5 class="card-title">@cnewsNo.Value</h5>
+                                <p class="newsSubContent">There are @cnewsNo.Value Cultural News</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            @* <h2 class="newsTopic">Welcome Admin</h2>
+            <h2>There are @nnewsNo.Value number of National News</h2>
+            <h2>There are @gnewsNo.Value number of Global News</h2>
+            <h2>There are @bnewsNo.Value number of Bussiness News</h2>
+            <h2>There are @cnewsNo.Value number of Cultural News</h2>*@
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+<script>
+    const navbarToggle = document.getElementById("navbar-toggle");
+    const sideNavbar = document.querySelector(".sidefixnavbar");
+
+    navbarToggle.addEventListener("click", () => {
+        sideNavbar.classList.toggle("active");
+    });
+</script>

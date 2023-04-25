@@ -17,7 +17,15 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-toggleable navbar-light box-shadow border-bottom fixed-top  pb-0 mb-5" style="display:flex; flex-wrap:wrap; background-color:rgb(11,35,81); padding-left:10px;">
         <div class="navbarHome">
-            <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">InsiderNepalApp</a>
+            @if (User.IsInRole("Admin"))
+            {
+                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="AdminPanel">InsiderNepalApp</a>
+            }
+            else
+            {
+                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">InsiderNepalApp</a>
+
+            }
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +38,7 @@
                     <li class="nav-item">
                         @if (User.IsInRole("Admin"))
                         {
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house"></i></a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="AdminPanel"><i class="fa-solid fa-house"></i></a>
                         }
                         else
                         {
@@ -70,7 +78,7 @@
 
                         }
                     </li>
-                    <li class="nav-item"> 
+                    <li class="nav-item">
                         @if (User.IsInRole("Admin"))
                         {
                             <a class="nav-link text-white" asp-area="" asp-controller="Journal" asp-action="Index">Journal</a>

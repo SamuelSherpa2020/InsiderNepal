@@ -2240,6 +2240,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\National\4d8d0cc5-b3f1-4617-ba29-1e992e173d9d_oil gifs.gif))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\National\557c4c86-18ff-4249-8bb8-f740619f1ab9_Messi.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>InsiderNepalApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InsiderNepalApp</BasePath>
+      <RelativePath>images/National/557c4c86-18ff-4249-8bb8-f740619f1ab9_Messi.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\National\557c4c86-18ff-4249-8bb8-f740619f1ab9_Messi.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\National\58de5674-c549-46c3-ad16-7c38ecc3e058_university gate.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>InsiderNepalApp</SourceId>

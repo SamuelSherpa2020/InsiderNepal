@@ -75,6 +75,10 @@ body
     font-family:poppins-medium;
     font-size:33px;
 }
+.newsTopicAdmin{
+    font-family:poppins-medium;
+    font-size:20px;
+}
 
 .newsContent{
     font-family:Arial;
@@ -98,14 +102,30 @@ body
     height: 100vh;
     background-color: rgb(11,35,81);
     transition: all 0.3s ease-in-out;
-} 
-
+}
  .sidenavbar:hover {
         left: 0;
     }
  .sidenavbar.active{
      left:0;
  }
+.sidefixnavbar {
+    position: fixed;
+    top: 0;
+    left: -195px;
+    
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(11,35,81);
+    transition: all 0.3s ease-in-out;
+}
+.sidefixnavbar:hover {
+    left: 0;
+}
+
+.sidefixnavbar.active {
+    left: 0;
+}
 ul {
     list-style: none;
     padding: 0;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zy9dT0AWkD9FRayq/ln2VU5gnpL0JmejfprPniiwQpM=",
+  "Hash": "otBYVjQi8ZVTe9j8ff0+BBwcqlwiTdb8OR1KM4WQz3M=",
   "Source": "InsiderNepalApp",
   "BasePath": "_content/InsiderNepalApp",
   "Mode": "Default",
@@ -3449,6 +3449,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\National\\4d8d0cc5-b3f1-4617-ba29-1e992e173d9d_oil gifs.gif"
+    },
+    {
+      "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\557c4c86-18ff-4249-8bb8-f740619f1ab9_Messi.jpg",
+      "SourceId": "InsiderNepalApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\",
+      "BasePath": "_content/InsiderNepalApp",
+      "RelativePath": "images/National/557c4c86-18ff-4249-8bb8-f740619f1ab9_Messi.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\National\\557c4c86-18ff-4249-8bb8-f740619f1ab9_Messi.jpg"
     },
     {
       "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\58de5674-c549-46c3-ad16-7c38ecc3e058_university gate.jpg",
