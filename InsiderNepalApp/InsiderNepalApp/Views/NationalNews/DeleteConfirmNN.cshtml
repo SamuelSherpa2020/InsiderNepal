@@ -1,16 +1,19 @@
 ﻿@model  InsiderNepalApp.ViewModel.NationalNewsVM;
 
-<h3>You sure, want to delete @Model.Title news permanently?</h3><br />
-
+<h3 style="color:red; font-family:cursive; margin-left:10%;">Really want to delete?</h3><br />
+<div style="margin-left:40%; transform:translate(-50%)">
 <form asp-action="DeleteNN" method="post">
     <input type="hidden" asp-for="NationalNewsId" />
     <div class="pb-3 border-bottom" style="width:44rem">
 
-        <div class="d-flex mt-5  col-12 col-sm-6 col-md-6" style="width:50rem;">
+        <div class="d-flex mt-4  col-md-12 col-sm-6 gap-4">
             <div class="col-md-6 col-sm-6">
                 <h3 class="card-title" style="font-family:Calibri">@Model.Title</h3>
                 <p class="text-black-50">@Model.PublishDateTime.ToString("MMM dd, yyyy")</p>
-                <p style="font-weight:bold">@Model.Content</p>
+                    @{
+                        string newscontent = string.Join(" ", Model.Content.Split(' ', StringSplitOptions.RemoveEmptyEntries).Take(25)) + " ...";
+                    }
+                <p style="font-weight:bold">@newscontent</p>
                 <p class="text-black-50">- @Model.Author</p>
             </div>
             @*different ways of fitting image in the given dev: fill, contain, cover none, scale-down*@
@@ -26,3 +29,4 @@
         <a class="btn btn-danger" style="background-color:rgb(158,3,13)" href="/NationalNews/DeleteConfirmNN?id=@nnews.NationalNewsId">Delete</a>*@
     </div>
 </form>
+</div>
