@@ -1,54 +1,56 @@
 ﻿@model InsiderNepalApp.ViewModel.NationalNewsVM;
 
-
 <div class="text-center h2" style="font-family:Consolas">Edit National News</div>
 
-<form asp-action="EditNationalNews" method="post" enctype="multipart/form-data">
+
+
+    <div style="margin-left:50%; transform:translate(-50%)">
+    <form asp-action="EditNationalNews"  method="post" enctype="multipart/form-data">
     <input class="form-control" type="hidden" asp-for="NationalNewsId" />
-    
-    <div class="col-sm-5">
-        <label asp-for="Title" class="form-label">News Title</label>
-        <input asp-for="Title" type="text" class="form-control">
+
+    <div class="col-sm-8 col-md-10">
+        <label asp-for="Title" class="form-label" style="font-weight:bold;">News Title</label>
+        <input asp-for="Title" type="text" class="form-control" style="border:2px solid black;">
         <span class="text-danger" asp-validation-for="Title"></span>
     </div>
     <div class="mt-4 col-md-12"></div>
 
-    <div class="col-sm-8">
-        <label asp-for="Content" class="form-label">News Content</label>
-        <textarea rows="5" class="form-control" asp-for="Content" type="text"></textarea>
+    <div class="col-sm-8 col-md-12">
+            <label asp-for="Content" class="form-label" style="font-weight:bold;">News Content</label>
+            <textarea rows="5" class="form-control" asp-for="Content" type="text" style="border:2px solid black;"></textarea>
         <span class="text-danger" asp-validation-for="Content"></span>
     </div>
 
     <div class="mt-4 col-md-12"></div>
 
 
-    <div class="mb-3 col-md-5">
+    <div class="mb-3 col-md-10" >
         <div class="row">
             <div>
-                <label asp-for="Avatar" class="form-label">News Image</label><br />
-                <input class="form-control" asp-for="Avatar">
+                    <label asp-for="Avatar" class="form-label" style="font-weight:bold;">News Image</label><br />
+                    <input class="form-control" asp-for="Avatar" style="border:2px solid black;">
             </div>
             <div class="mt-4 col-md-12"></div>
 
             <div>
-                <img src="@Model.ImageUrl" style="height:100%; width:100%; border-radius:10px" />
-            </div> 
+                <img src="@Model.ImageUrl" style="height:240px; width:280px; border-radius:10px"/>
+            </div>
         </div>
 
     </div>
-    <input type="hidden" asp-for="ImageUrl" />
+        <input type="hidden" asp-for="ImageUrl" style="font-weight:bold;" />
     <div class="mt-4 col-md-12"></div>
 
     <div class="col-sm-8">
-        <label asp-for="PublishDateTime" class="form-label">Publish Date</label>
-        <input asp-for="PublishDateTime" type="date" class="form-control">
+            <label asp-for="PublishDateTime" class="form-label" style="font-weight:bold;">Publish Date</label>
+            <input asp-for="PublishDateTime" type="date" class="form-control" style="border:2px solid black;">
         <span class="text-danger" asp-validation-for="Content"></span>
     </div>
     <div class="mt-4 col-md-12"></div>
 
     <div class="col-sm-5">
-        <label asp-for="Author" class="form-label">Author Name</label>
-        <input asp-for="Author" type="text" class="form-control" />
+            <label asp-for="Author" class="form-label" style="font-weight:bold;">Author Name</label>
+            <input asp-for="Author" type="text" class="form-control" style="border:2px solid black;" />
         <span class="text-danger" asp-validation-for="Author"></span>
     </div>
     <div class="mt-4 col-md-12"></div>
@@ -56,3 +58,37 @@
     <button type="submit" class="btn btn-primary custom-btn" style="background-color:#00308F">Update</button>
     <a asp-controller="NationalNews" asp-action="Index" class="btn btn-dark custom-btn" style="background-color:#5B3B8C">Back</a>
 </form>
+    </div>
+
+
+@*<table class="table border-primary table-bordered">
+   
+    <thead>
+        <tr>
+            <th>News</th>
+            <th>Content</th>
+            <th>Image</th>
+            <th>Publish Date</th>
+            <th>Author Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var news in Model)
+        {
+            <div>
+            @{
+                string newsContent = string.Join(" ", @news.Content.Split(' ', StringSplitOptions.RemoveEmptyEntries).Take(10));
+            }
+            </div>
+
+            <tr>
+                <td>@news.Title</td>
+               <td>@newsContent</td>
+                <td><img src="@news.ImageUrl" style="height:50px;"></td>
+                <td>@news.PublishDateTime.ToString("ddd, MMM dd yyyy")</td>
+                <td>@news.Author</td>
+            </tr>
+        }
+    </tbody>
+</table>*@

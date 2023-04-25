@@ -18,7 +18,7 @@
                         <div class="mt-5">
                             <div class="col-md-12 col-sm-6">
                                 <a asp-controller="Home" asp-action="ReadParticularNews" asp-route-id="@Model.NationalNewsVM[@i].NationalNewsId" asp-route-category="NationalNewsVM">
-                                    <img src="@Model.NationalNewsVM[@i].ImageUrl" class=" col-md-6 h-100 w-100" style="width:100%; height:100%; object-fit:cover; border-radius:10px;" />
+                                    <img src="@Model.NationalNewsVM[@i].ImageUrl" class=" col-md-6 h-100 w-100" style="width:100%; height:100%; object-fit:cover; border-radius:5px;" />
                                 </a>
                             </div>
                             <div class="mt-4 col-md-12 col-sm-12">
@@ -66,7 +66,7 @@
                         <div class="mt-5">
                             <div class="col-md-12 col-sm-6">
                                 <a asp-controller="Home" asp-action="ReadParticularNews" asp-route-id="@Model.GlobalNewsVM[@i].GlobalNewsId" asp-route-category="GlobalNewsVM">
-                                    <img src="@Model.GlobalNewsVM[@i].ImageUrl" class=" col-md-6 h-100 w-100" style="width:100%; height:100%; object-fit:cover; border-radius:10px;" />
+                                    <img src="@Model.GlobalNewsVM[@i].ImageUrl" class=" col-md-6 h-100 w-100" style="width:100%; height:100%; object-fit:cover; border-radius:5px;" />
                                 </a>
                             </div>
                             <div class="mt-4 col-md-12 col-sm-12">
@@ -93,7 +93,7 @@
             {
                 <div class="col-md-12 mt-5">
                     <div>
-                        <img src="@Model.AdsVM[@i].ImageUrl" class="col-md-12" style="object-fit:cover; border-radius:10px;" /><div>
+                        <img src="@Model.AdsVM[@i].ImageUrl" class="col-md-12" style="object-fit:cover; border-radius:5px;" /><div>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                     <div class="mt-5">
                         <div class="col-md-6 col-sm-6" style="width:200px; height: 180px;">
                             <a asp-controller="Home" asp-action="ReadParticularNews" asp-route-id="@Model.CultureNewsVM[@i].CultureNewsVMId" asp-route-category="CultureNewsVM">
-                                <img src="@Model.CultureNewsVM[@i].ImageUrl" class=" col-md-6 h-100 w-100" style="width:100%; height:100%; object-fit:cover; border-radius:10px;" />
+                                <img src="@Model.CultureNewsVM[@i].ImageUrl" class=" col-md-6 h-100 w-100" style="width:100%; height:100%; object-fit:cover; border-radius:5px;" />
                             </a>
                         </div>
                         <div class="mt-4 col-md-12 col-sm-12">

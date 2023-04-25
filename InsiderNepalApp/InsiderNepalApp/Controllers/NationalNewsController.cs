@@ -3,11 +3,13 @@ using InsiderNepalApp.Extensions;
 using InsiderNepalApp.Mapper;
 using InsiderNepalApp.Models;
 using InsiderNepalApp.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 namespace InsiderNepalApp.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class NationalNewsController : Controller
     {
         private readonly InsiderNepalDbContext _ctx;
@@ -127,6 +129,7 @@ namespace InsiderNepalApp.Controllers
             return RedirectToAction("Index");
         }
 
+        [AllowAnonymous]
         public IActionResult ReadNationalNews()
         {
             var nnews = _ctx.NationalNews.ToList();
@@ -142,6 +145,7 @@ namespace InsiderNepalApp.Controllers
 
             return View(navm);
         }
+        [AllowAnonymous]
         public IActionResult ShowNewsInDetail(int id)
         {
             var nnews = _ctx.NationalNews.Where(x => x.NationalNewsId == id).ToList();

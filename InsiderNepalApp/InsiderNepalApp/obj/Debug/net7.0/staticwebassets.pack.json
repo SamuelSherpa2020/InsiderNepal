@@ -505,6 +505,22 @@
       "PackagePath": "staticwebassets\\images\\Global\\f0c57e32-520c-4573-9e78-5f909cd7cbb6_hydro.jpg"
     },
     {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Journal\\Access denied.png",
+      "PackagePath": "staticwebassets\\images\\Journal\\Access denied.png"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Journal\\Not completed.png",
+      "PackagePath": "staticwebassets\\images\\Journal\\Not completed.png"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Journal\\ham.png",
+      "PackagePath": "staticwebassets\\images\\Journal\\ham.png"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Journal\\locked.png",
+      "PackagePath": "staticwebassets\\images\\Journal\\locked.png"
+    },
+    {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\0a2e2859-1b2c-4962-8ee2-db7f35fdd578_delish.jpg",
       "PackagePath": "staticwebassets\\images\\National\\0a2e2859-1b2c-4962-8ee2-db7f35fdd578_delish.jpg"
     },
@@ -551,6 +567,14 @@
     {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\c48c74a8-1353-4fd4-886e-a3804dddfcd8_sushrit.jpg",
       "PackagePath": "staticwebassets\\images\\National\\c48c74a8-1353-4fd4-886e-a3804dddfcd8_sushrit.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\log in.png",
+      "PackagePath": "staticwebassets\\images\\log in.png"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\sign up.png",
+      "PackagePath": "staticwebassets\\images\\sign up.png"
     },
     {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\js\\site.js",
