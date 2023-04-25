@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "otBYVjQi8ZVTe9j8ff0+BBwcqlwiTdb8OR1KM4WQz3M=",
+  "Hash": "d2W15C325rIRfhcZy1NkSr/S8J8LlhKQFQtUPV4+kfg=",
   "Source": "InsiderNepalApp",
   "BasePath": "_content/InsiderNepalApp",
   "Mode": "Default",
@@ -2448,6 +2448,23 @@
       "OriginalItemSpec": "wwwroot\\images\\Ads\\1b7b2d5d-042a-4c7e-8bc0-be05841e7b6e_oil gifs.gif"
     },
     {
+      "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\21b49058-a175-4080-b55d-953fe7191491_ime.gif",
+      "SourceId": "InsiderNepalApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\",
+      "BasePath": "_content/InsiderNepalApp",
+      "RelativePath": "images/Ads/21b49058-a175-4080-b55d-953fe7191491_ime.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Ads\\21b49058-a175-4080-b55d-953fe7191491_ime.gif"
+    },
+    {
       "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\266d8b05-e5ad-4188-b09b-cf3ce940ab39_karina.gif",
       "SourceId": "InsiderNepalApp",
       "SourceType": "Discovered",
@@ -2516,6 +2533,23 @@
       "OriginalItemSpec": "wwwroot\\images\\Ads\\7580eb5b-7878-43b2-8a5f-5faadd9edf09_somersby.gif"
     },
     {
+      "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\96245634-25df-4d60-8742-b034b41fdbfa_vianet-banner.gif",
+      "SourceId": "InsiderNepalApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\",
+      "BasePath": "_content/InsiderNepalApp",
+      "RelativePath": "images/Ads/96245634-25df-4d60-8742-b034b41fdbfa_vianet-banner.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Ads\\96245634-25df-4d60-8742-b034b41fdbfa_vianet-banner.gif"
+    },
+    {
       "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\969fde2d-5ea7-45ab-84f7-b48340183761_oil gifs.gif",
       "SourceId": "InsiderNepalApp",
       "SourceType": "Discovered",
@@ -2548,6 +2582,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Ads\\9e23ac30-486b-458c-994a-8f08afdc34bf_Bycycle ads.gif"
+    },
+    {
+      "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\b6c10e43-15a6-4ddc-b36d-94f25b4b3427_booking.png",
+      "SourceId": "InsiderNepalApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\",
+      "BasePath": "_content/InsiderNepalApp",
+      "RelativePath": "images/Ads/b6c10e43-15a6-4ddc-b36d-94f25b4b3427_booking.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Ads\\b6c10e43-15a6-4ddc-b36d-94f25b4b3427_booking.png"
     },
     {
       "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\bc2e6797-1936-4f56-8300-25feac63b02f_ncc_bank.gif",
@@ -2633,6 +2684,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Ads\\dacf7b31-9371-4cdc-b207-5060af4d5856_werspark.gif"
+    },
+    {
+      "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\db06930e-b6b3-4059-aacb-4744399e20f5_Online-Portal-Aviotrace.gif",
+      "SourceId": "InsiderNepalApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\",
+      "BasePath": "_content/InsiderNepalApp",
+      "RelativePath": "images/Ads/db06930e-b6b3-4059-aacb-4744399e20f5_Online-Portal-Aviotrace.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Ads\\db06930e-b6b3-4059-aacb-4744399e20f5_Online-Portal-Aviotrace.gif"
     },
     {
       "Identity": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\db5ab3c0-753a-4836-ba34-2f8310212639_karina.gif",

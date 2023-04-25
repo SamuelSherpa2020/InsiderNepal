@@ -12,50 +12,102 @@
 
 
 
-<nav class="sidenavbar">
-    <ul style="margin-top:100px;">
-        <li><a asp-controller="Ads" asp-action="index"><i class="fa-solid fa-pen-to-square m-2"></i>Edit</a></li>
-        <li><a asp-controller="Ads" asp-action="index"><i class="fa-solid fa-trash m-2"></i>Delete</a></li>
-        <li><a asp-controller="Ads" asp-action="addads"><i class="fa-solid fa-plus m-2"></i>Add</a></li>
-    </ul>
-</nav>
-<div class="navbar-toggle">
-    <a id="navbar-toggle" class="btn btn-primary" style="background-color:rgb(11,35,81); position:fixed;right:10px;" href="#"><i class="fa-solid fa-bars"></i></a>
-</div>
-<div style="padding-bottom:20px"></div>
-<div class="newsTopic">
-    <div class="text-center h2">Advertisements</div>
-</div>
-@foreach(var ads in Model)
-    {
-        <div class="pb-3 border-bottom" style="width:44rem">
-            <div class="d-flex mt-5  gap-2">
-                <div class="col-md-6 col-sm-6">
-                    <div class="newsHeadLine">
-                        <h3 class="card-title">@ads.Title</h3>
-                    </div>
-                    <div class="dateAndAuthor">
-                        <p class="text-black-50">@ads.StartDate.ToString("yyyy-MM-dd")</p>
-                    </div>
-                    <div class="newsContent">
+    <nav class="sidenavbar">
+        <ul style="margin-top:100px;">
+            <li><a asp-controller="Ads" asp-action="index"><i class="fa-solid fa-pen-to-square m-2"></i>Edit</a></li>
+            <li><a asp-controller="Ads" asp-action="index"><i class="fa-solid fa-trash m-2"></i>Delete</a></li>
+            <li><a asp-controller="Ads" asp-action="addads"><i class="fa-solid fa-plus m-2"></i>Add</a></li>
+        </ul>
+    </nav>
+    <div class="navbar-toggle">
+        <a id="navbar-toggle" class="btn btn-primary" style="background-color:rgb(11,35,81); position:fixed;right:10px;" href="#"><i class="fa-solid fa-bars"></i></a>
+    </div>
+    <div style="padding-bottom:20px"></div>
+    <div class="newsTopic">
+        <div class="text-center h2">Advertisements</div>
+    </div>
+   
+          @*  @foreach (var ads in Model)
+            {
+                <div class="pb-3 border-bottom" style="width:44rem">
+                    <div class="d-flex mt-5  gap-2">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="newsHeadLine">
+                                <h3 class="card-title">@ads.Title</h3>
+                            </div>
+                            <div class="dateAndAuthor">
+                                <p class="text-black-50">@ads.StartDate.ToString("yyyy-MM-dd")</p>
+                            </div>
+                            <div class="newsContent">
 
-                        <p style="font-weight:bold">@ads.Description</p>
-                    </div>
-                    <div class="dateAndAuthor">
-                        <p class="text-black-50">@ads.EndDate.ToString("yyyy-MM-dd")</p>
-                    </div>
-                </div>
-                @*different ways of fitting image in the given dev: fill, contain, cover none, scale-down*@
-                <div>
-                    <img src="@ads.ImageUrl" class="h-100 w-100" style="width:00px; height: 220px; object-fit:cover;" />
-                </div>
+                                <p style="font-weight:bold">@ads.Description</p>
+                            </div>
+                            <div class="dateAndAuthor">
+                                <p class="text-black-50">@ads.EndDate.ToString("yyyy-MM-dd")</p>
+                            </div>
+                        </div>
+                        @*different ways of fitting image in the given dev: fill, contain, cover none, scale-down
+                        <div>
+                            <img src="@ads.ImageUrl" class="h-100 w-100" style="width:00px; height: 220px; object-fit:cover;" />
+                        </div>
 
-                @*for edit and delete button *@
-            </div>
-            <a asp-action="EditAds" asp-controller="Ads" asp-route-id="@ads.AdsId" class="btn btn-success" style="background-color:rgb(43,97,58)">Edit</a>
-            <a asp-action="DeleteConfirmAds" asp-controller="Ads" asp-route-id="@ads.AdsId" class="btn btn-danger" style="background-color:rgb(158,3,13)">Delete</a>
-        </div>
-    }
+                        @*for edit and delete button 
+                    </div>
+                    <a asp-action="EditAds" asp-controller="Ads" asp-route-id="@ads.AdsId" class="btn btn-success" style="background-color:rgb(43,97,58)">Edit</a>
+                    <a asp-action="DeleteConfirmAds" asp-controller="Ads" asp-route-id="@ads.AdsId" class="btn btn-danger" style="background-color:rgb(158,3,13)">Delete</a>
+                </div>
+            }*@
+
+            <table class="table border-primary table-bordered">
+
+                <thead>
+                    <tr>
+                        <th>S.N</th>
+                        <th>Title</th>
+                        <th>Desc</th>
+                        <th>Image</th>
+                        <th>Price</th>
+                        <th>ContactInfo</th>
+                        <th>Publish Date</th>
+                        <th>End Date</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        var i = 1;
+                    }
+                    @foreach (var news in Model)
+                    {
+                        <div>
+                            @{
+                                string newsContent = string.Join(" ", @news.Description.Split(' ', StringSplitOptions.RemoveEmptyEntries).Take(10)) + " ....";
+                            }
+                        </div>
+
+                        <tr>
+                            <td>@i</td>
+                            <td>@news.Title</td>
+                            <td>@newsContent</td>
+                            <td><img src="@news.ImageUrl" style="height:50px;"></td>
+                            <td>@news.Price</td>
+                            <td>@news.ContactInformation</td>
+                            <td>@news.StartDate.ToString("ddd, MMM dd yyyy")</td>
+                            <td>@news.EndDate.ToString("ddd, MMM dd yyyy")</td>
+                            <td>
+                                <a asp-controller="Ads" asp-action="EditAds" asp-route-id="@news.AdsId" class="btn btn-success" style="background-color:rgb(43,97,58)">Edit</a>
+                                <a class="btn btn-danger" style="background-color:rgb(158,3,13)" href="/Ads/DeleteConfirmAds?id=@news.AdsId">Delete</a>
+                            </td>
+                        </tr>
+                        <div>
+                            @{
+                                i++;
+                            }
+                        </div>
+                    }
+                </tbody>
+            </table>
+        
 
 
     <script>

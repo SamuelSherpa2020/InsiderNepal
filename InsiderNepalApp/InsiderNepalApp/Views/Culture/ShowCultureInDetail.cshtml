@@ -1,0 +1,28 @@
+﻿@model InsiderNepalApp.ViewModel.CultureAdsVM;
+@{
+    ViewData["Title"] = "NationalNews In Detail";
+}
+<div class="border-1 border-black">
+    <img src="@Model.AdsVM[15].ImageUrl" style="margin-left:50%;transform:translate(-50%);" />
+</div>
+<div class="mt-5"></div>
+@foreach (var nnews in Model.CultureNewVM)
+{
+
+    <div class="col-md-9  mx-auto">
+        <div class="newsHeadLine"><h2>@nnews.Title</h2></div>
+        <div class="dateAndAuthor" st yle="font-size:12px;opacity:0.7">@nnews.Author</div>
+        <div class="dateAndAuthor">
+            <p class="text-black-50">@nnews.PublishDateTime.ToString("MMM dd, yyyy")</p>
+        </div>
+
+        <div class="col-md-8 col-sm-12 mx-auto">
+            <img src="@nnews.ImageUrl" class="h-100 w-100" style="width:650px; height:480px;object-fit:cover;border-radius:5px;">
+        </div>
+        <div class="mt-5"></div>
+        <div class="newsContent" style="word-spacing:0.2rem;line-height:1.5; font-size:1.1rem; letter-spacing:0.0001776464rem;word-break:break-all;">@nnews.Content</div>
+    </div>
+}
+<div class="mt-5"></div>
+<div class="col-md-9 mx-auto"></div>
+<img src="@Model.AdsVM[16].ImageUrl" style="margin-left:50%;transform:translate(-50%);" />

@@ -123,12 +123,14 @@ public class HomeController : Controller
         var gnews = _ctx.GlobalNews.Count();
         var bnews = _ctx.BussinessNews.Count();
         var cnews = _ctx.CultureNews.Count();
+        var ads = _ctx.AdsModel.Count();
         //var jnews = _ctx.NationalNews.Count();
         AdminPanelVM apv = new();
         apv.countingnews.Add("NationalNews",nnews);
         apv.countingnews.Add("GlobalNews",gnews);
         apv.countingnews.Add("BussinessNews",bnews);
         apv.countingnews.Add("CultureNews",cnews);
+        apv.countingnews.Add("Ads", ads);
 
         return View(apv);
     }

@@ -1,0 +1,69 @@
+﻿@model InsiderNepalApp.ViewModel.BussinessAdsVM;
+
+@{
+    ViewData["Title"] = "BussinessNews";
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title style="font-family:monospace">Bussiness News</title>
+</head>
+
+<body>
+
+    <div>
+        <img src="@Model.AdsVM[13].ImageUrl" style="margin-left:50%; transform:translate(-50%);" />
+    </div>
+
+    <div style="padding-bottom:40px;"></div>
+    <div class="newsTopic"><div class="text-center h2">Bussiness News</div></div>
+
+    <div class="col-md-12 ms-4 row gap-0">
+        <div class="mx-auto col-md-12 col-lg-6 col-sm-12">
+            @foreach (var gnews in Model.BussinessNewsVM)
+            {
+                <div class="d-flex mt-5 pb-5 col-md-12 col-sm-12 gap-3 border-bottom">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="newsHeadLine">
+                            @{
+                                string newsTitle = string.Join(" ", @gnews.Title.Split(' ', StringSplitOptions.RemoveEmptyEntries).Take(6)) + "...";
+                            }
+                            <h3 class="card-title">@newsTitle</h3>
+                        </div>
+                        <div class="dateAndAuthor">
+                            <p class="text-black-50">@gnews.PublishDateTime.ToString("MMM dd, yyyy")</p>
+                        </div>
+                        <div class="newsSubContent" style="font-weight:bold">
+                            <p>
+                                @{
+                                    string selectWords = string.Join(" ", @gnews.Content.Split(' ', StringSplitOptions.RemoveEmptyEntries).Take(20)) + " ...";
+                                }
+                            </p>
+                            @selectWords<a asp-controller="BussinessNews" asp-action="ShowBussinessInDetail" asp-route-id="@gnews.BussinessNewsVMId" style="color:deepskyblue">Readmore</a>
+                        </div>
+                        <div class="dateAndAuthor">
+                            <p class="text-black-50">-@gnews.Author</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img src="@gnews.ImageUrl" style="width:100%; height:100%; width:340px; height:230px; object-fit:cover; border-radius:10px;">
+                    </div>
+                </div>
+            }
+
+        </div>
+        <div class="col-md-3 col-lg-4 mt-5 border-bottom" stlyle="transform:translateX(-20%);">
+            @for (int i = 0; i < Model.BussinessNewsVM.Count / 2; i++)
+            {
+                <div class="mb-5 pb-5"><img src="@Model.AdsVM[i].ImageUrl" style="margin-bottom:40px; width:400px; height:220px; object-fit:cover; border-radius:10px;" /></div>
+            }
+        </div>
+    </div>
+    <div class="mb-5"></div>
+    <div>
+        <img src="@Model.AdsVM[14].ImageUrl" style="margin-left:50%; transform:translate(-50%);" />
+    </div>
+</body>
+</html>

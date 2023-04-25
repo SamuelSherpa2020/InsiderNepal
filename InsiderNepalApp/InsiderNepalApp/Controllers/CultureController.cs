@@ -2,10 +2,12 @@
 using InsiderNepalApp.Extensions;
 using InsiderNepalApp.Mapper;
 using InsiderNepalApp.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InsiderNepalApp.Controllers;
 
+[Authorize(Roles ="Admin")]
 public class CultureController : Controller
 {
     private readonly InsiderNepalDbContext _cdx;
@@ -119,4 +121,42 @@ public class CultureController : Controller
         }
         return RedirectToAction("Index");
     }
+
+    [AllowAnonymous]
+    public IActionResult ReadCultureNews()
+    {
+        var gnews = _cdx.CultureNews.ToList();
+        gnews.Reverse();
+
+        var gnewsVM = gnews.ToViewModel();
+
+        var ads = _cdx.AdsModel.ToList();
+        var adsVM = ads.ToViewModel();
+        CultureAdsVM gav = new()
+        {
+            CultureNewVM = gnewsVM,
+            AdsVM = adsVM,
+        };
+
+        return View(gav);
+    }
+
+    [AllowAnonymous]
+    public IActionResult ShowCultureInDetail(int id)
+    {
+        var gnews = _cdx.CultureNews.Where(x => x.CultureNewsId == id).ToList();
+        var gnewsVM = gnews.ToViewModel();
+
+        var ads = _cdx.AdsModel.ToList();
+        var adsVM = ads.ToViewModel();
+
+        CultureAdsVM gav = new()
+        {
+            CultureNewVM = gnewsVM,
+            AdsVM = adsVM
+        };
+
+        return View(gav);
+    }
+
 }

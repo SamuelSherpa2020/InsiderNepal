@@ -3,10 +3,12 @@ using InsiderNepalApp.Extensions;
 using InsiderNepalApp.Mapper;
 using InsiderNepalApp.Models;
 using InsiderNepalApp.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InsiderNepalApp.Controllers;
 
+[Authorize(Roles ="Admin")]
 public class BussinessNewsController : Controller
 {
 
@@ -116,5 +118,43 @@ public class BussinessNewsController : Controller
         {
         }
         return RedirectToAction("Index");
+    }
+
+
+    [AllowAnonymous]
+    public IActionResult ReadBussinessNews()
+    {
+        var gnews = _bdx.BussinessNews.ToList();
+        gnews.Reverse();
+
+        var gnewsVM = gnews.ToViewModel();
+
+        var ads = _bdx.AdsModel.ToList();
+        var adsVM = ads.ToViewModel();
+        BussinessAdsVM gav = new()
+        {
+            BussinessNewsVM = gnewsVM,
+            AdsVM = adsVM,
+        };
+
+        return View(gav);
+    }
+
+    [AllowAnonymous]
+    public IActionResult ShowBussinessInDetail(int id)
+    {
+        var gnews = _bdx.BussinessNews.Where(x => x.BussinessNewsId == id).ToList();
+        var gnewsVM = gnews.ToViewModel();
+
+        var ads = _bdx.AdsModel.ToList();
+        var adsVM = ads.ToViewModel();
+
+        BussinessAdsVM gav = new()
+        {
+            BussinessNewsVM = gnewsVM,
+            AdsVM = adsVM
+        };
+
+        return View(gav);
     }
 }

@@ -1,1 +1,33 @@
-﻿<h2>This is DeleteConfirm page for Culture News</h2>
+﻿@model InsiderNepalApp.ViewModel.CultureNewsVM;
+<div style="font-family:cursive; margin-left:10%;">
+    <h3 style="color: red;">Really Want to delete ? </h3>
+</div>
+<div style="margin-left:40%; transform:translate(-50%);">
+    <form asp-action="DeleteCN" method="post">
+        <input type="hidden" asp-for="CultureNewsVMId" />
+        <div class="pb-3 border-bottom">
+
+            <div class="d-flex mt-4 col-md-12 col-sm-6 gap-4">
+                <div class="col-md-6 col-sm-6">
+                    <h3 class="card-title" style="font-family:Calibri">@Model.Title</h3>
+                    <p class="text-black-50">@Model.PublishDateTime.ToString("MMM dd, yyyy")</p>
+                    @{
+                        string newscontent = string.Join(" ", Model.Content.Split(' ', StringSplitOptions.RemoveEmptyEntries).Take(25)) + " ...";
+                    }
+                    <p style="font-weight:bold">@newscontent</p>
+                    <p class="text-black-50">- @Model.Author</p>
+                </div>
+                @*different ways of fitting image in the given dev: fill, contain, cover none, scale-down*@
+                <div class="col-md-6 col-sm-6" style="width:300px; height: 220px;">
+                    <img src="@Model.ImageUrl" class=" col-md-6 h-100 w-100" style="width:100%; height:100%; object-fit:cover; border-radius:10px;" />
+                </div>
+
+                @*for edit and delete button *@
+            </div>
+            <a asp-controller="Culture" asp-action="Index" class="btn btn-primary" style="background-color:#00308F">Cancel</a>
+            <button type="submit" class="btn btn-danger">Delete</button>
+            @*<a class="btn btn-success" style="background-color:rgb(43,97,58)" href="/NationalNews/EditNationalNews?id=@nnews.NationalNewsId">Edit</a>
+            <a class="btn btn-danger" style="background-color:rgb(158,3,13)" href="/NationalNews/DeleteConfirmNN?id=@nnews.NationalNewsId">Delete</a>*@
+        </div>
+    </form>
+</div>

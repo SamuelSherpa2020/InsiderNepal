@@ -2,71 +2,75 @@
 
 
 <div class="text-center h2" style="font-family:Consolas">Edit Ads</div>
+<div>
+    <div class="ms-5 d-flex justify-content-center" style="padding-left:5%;">
+        <form asp-action="EditAds" method="post" enctype="multipart/form-data">
 
-<form asp-action="EditAds" method="post" enctype="multipart/form-data">
- 
-    <input class="form-control" type="hidden" asp-for="AdsId" />
-    <div class="mt-4"></div>
+            <input class="form-control" type="hidden" asp-for="AdsId" />
+            <div class="mt-4"></div>
 
-    <div class="col-sm-5 col-md-3">
-        <label asp-for="Title" class="form-label">Ad Title</label>
-        <input asp-for="Title" class="form-control" type="text">
-        <span class="text-danger" asp-validation-for="Title"></span>
-    </div>
-    <div class="mt-4 col-sm-8 col-md-6"></div>
-
-    <div class="col-sm-8 col-md-6">
-        <label asp-for="Description" class="form-label">Ad Description</label>
-        <textarea rows="5" class="form-control" asp-for="Description" type="text"></textarea>
-        <span class="text-danger" asp-validation-for="Description"></span>
-    </div>
-    <div class="mt-4"></div>
-   
-    <div class="mb-3 col-md-5">
-        <div class="row">
-            <div>
-                <label asp-for="AdsAvatar" class="form-label">Ads Image</label><br />
-                <input class="form-control" asp-for="AdsAvatar">
+            <div class="col-sm-8 col-md-10">
+                <label asp-for="Title" class="form-label" style="font-weight:bold;">Ad Title</label>
+                <input asp-for="Title" class="form-control" type="text" style="border:1px solid black;border-radius:8px;">
+                <span class="text-danger" asp-validation-for="Title"></span>
             </div>
-            <div class="mt-4 col-md-12"></div>
+            <div class="mt-4 col-sm-8 col-md-6"></div>
 
-            <div>
-                <img src="@Model.ImageUrl" style="height:100%; width:100%; border-radius:10px" />
+            <div class="col-sm-8 col-md-10">
+                <label asp-for="Description" class="form-label" style="font-weight:bold;">Ad Description</label>
+                <textarea rows="5" class="form-control" asp-for="Description" type="text" style="border:1px solid black;border-radius:8px;"></textarea>
+                <span class="text-danger" asp-validation-for="Description"></span>
             </div>
-        </div>
-    </div>
-    <input type="hidden" asp-for="ImageUrl" />
+            <div class="mt-4"></div>
 
-    <div class="mt-4"></div>
+            <div class="mb-3 col-md-10">
+                <div class="row">
+                    <div>
+                        <label asp-for="AdsAvatar" class="form-label" style="font-weight:bold;">Ads Image</label><br />
+                        <input class="form-control" asp-for="AdsAvatar" style="border:1px solid black;border-radius:8px;">
+                    </div>
+                    <div class="mt-4 col-md-12"></div>
 
-    <div class="col-sm-5 col-md-4">
-        <label asp-for="Price" class="form-label">Ad Price</label>
-        <input asp-for="Price" class="form-control" type="number">
-        <span class="text-danger" asp-validation-for="Price"></span>
-    </div>
-    <div class="mt-4"></div>
+                    <div style="height:100px;">
+                        <img src="@Model.ImageUrl" style="height:100%; width:100%; border-radius:10px" />
+                    </div>
+                </div>
+            </div>
+            <input type="hidden" asp-for="ImageUrl" />
 
-    <div class=" col-sm-5 col-md-5">
-        <label class="form-label" asp-for="ContactInformation">Contanct Info</label>
-        <input class="form-control" type="text" asp-for="ContactInformation" />
-        <span asp-validation-for="ContactInformation" class="text-danger"></span>
-    </div>
-    <div class="mt-4"></div>
+            <div class="mt-4"></div>
 
-    <div class=" col-sm-5 col-md-5">
-        <label class="form-label" asp-for="StartDate">Start DateTime</label>
-        <input class="form-control" type="datetime-local" asp-for="StartDate" />
-        <span asp-validation-for="StartDate" class="text-danger"></span>
-    </div>
-    <div class="mt-4"></div>
-    <div class=" col-sm-5 col-md-5">
-        <label class="form-label" asp-for="EndDate">End DateTime</label>
-        <input class="form-control" type="datetime-local" asp-for="EndDate" />
-        <span asp-validation-for="EndDate" class="text-danger"></span>
-    </div>
-    <div class="mt-4"></div>
-    <button type="submit" class="btn btn-primary custom-btn" style="background-color:#00308F">Update</button>
-    <a asp-controller="Ads" asp-action="index" class="btn btn-dark custom-btn" style="background-color:#5B3B8C">Back</a>
+            <div class="col-sm-8 col-md-10">
+                <label asp-for="Price" class="form-label" style="font-weight:bold;">Ad Price</label>
+                <input asp-for="Price" class="form-control" type="number" style="border:1px solid black;border-radius:8px;">
+                <span class="text-danger" asp-validation-for="Price"></span>
+            </div>
+            <div class="mt-4"></div>
 
-    
-</form>
+            <div class=" col-sm-8 col-md-10">
+                <label class="form-label" asp-for="ContactInformation" style="font-weight:bold;">Contanct Info</label>
+                <input class="form-control" type="text" asp-for="ContactInformation" style="border:1px solid black;border-radius:8px;" />
+                <span asp-validation-for="ContactInformation" class="text-danger"></span>
+            </div>
+            <div class="mt-4"></div>
+
+            <div class=" col-sm-8 col-md-10">
+                <label class="form-label" asp-for="StartDate" style="font-weight:bold;">Start DateTime</label>
+                <input class="form-control" type="datetime-local" asp-for="StartDate" style="border:1px solid black;border-radius:8px;" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="mt-4"></div>
+            <div class=" col-sm-8 col-md-10">
+                <label class="form-label" asp-for="EndDate" style="font-weight:bold;">End DateTime</label>
+                <input class="form-control" type="datetime-local" asp-for="EndDate" style="border:1px solid black;border-radius:8px;" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="mt-4"></div>
+            <button type="submit" class="btn btn-primary custom-btn" style="background-color:#00308F">Update</button>
+            <a asp-controller="Ads" asp-action="index" class="btn btn-dark custom-btn" style="background-color:#5B3B8C">Back</a>
+
+
+        </form>
+
+    </div>
+</div>

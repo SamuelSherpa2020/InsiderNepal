@@ -4,6 +4,7 @@
     var gnewsNo = Model.countingnews.FirstOrDefault(d => d.Key.Contains("GlobalNews"));
     var bnewsNo = Model.countingnews.FirstOrDefault(d => d.Key.Contains("BussinessNews"));
     var cnewsNo = Model.countingnews.FirstOrDefault(d => d.Key.Contains("CultureNews"));
+    var adsNo = Model.countingnews.FirstOrDefault(d => d.Key.Contains("Ads"));
 }
 <html>
 <body>
@@ -32,7 +33,7 @@
                             </div>
                         </div>
                     </a>
-                        <div style="height:30px;"></div>
+                    <div style="height:30px;"></div>
                     <a asp-controller="GlobalNews" asp-action="Index">
                         <div class="text-white bg-secondary mb-3 col-sm-6 col-md-6" style="max-width: 18rem;border-radius:8px;">
                             <div class="card-header newsTopicAdmin">Global News</div>
@@ -53,7 +54,7 @@
                             </div>
                         </div>
                     </a>
-                        <div style="height:30px;"></div>
+                    <div style="height:30px;"></div>
                     <a asp-controller="Culture" asp-action="Index">
                         <div class="text-white bg-dark mb-3 col-sm-6 col-md-6" style="max-width: 18rem;border-radius:8px;">
                             <div class="card-header newsTopicAdmin">Cultural News</div>
@@ -64,6 +65,19 @@
                         </div>
                     </a>
                 </div>
+            </div>
+            <div style="height:30px;"></div>
+
+            <div class="row" style="margin-left:288px">
+            <a asp-controller="Ads" asp-action="Index">
+                <div class="text-white bg-danger mb-3 col-sm-6 col-md-6" style="max-width: 15.5rem;border-radius:8px;">
+                    <div class="card-header newsTopicAdmin">Cultural News</div>
+                    <div class="card-body">
+                        <h5 class="card-title">@adsNo.Value</h5>
+                        <p class="newsSubContent">There are @adsNo.Value Cultural News</p>
+                    </div>
+                </div>
+            </a>
             </div>
             @* <h2 class="newsTopic">Welcome Admin</h2>
             <h2>There are @nnewsNo.Value number of National News</h2>

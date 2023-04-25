@@ -3,12 +3,14 @@ using InsiderNepalApp.Extensions;
 using InsiderNepalApp.Mapper;
 using InsiderNepalApp.Models;
 using InsiderNepalApp.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.Identity.Client;
 
 namespace InsiderNepalApp.Controllers;
 
+[Authorize(Roles = "Admin")]
 public class GlobalNewsController : Controller
 {
     private readonly InsiderNepalDbContext _gdx;
@@ -119,6 +121,8 @@ public class GlobalNewsController : Controller
         }
         return RedirectToAction("Index");
     }
+
+    [AllowAnonymous]
     public IActionResult ReadGlobalNews()
     {
         var gnews = _gdx.GlobalNews.ToList();
@@ -137,6 +141,7 @@ public class GlobalNewsController : Controller
         return View(gav);
     }
 
+    [AllowAnonymous]
     public IActionResult ShowGlobalInDetail(int id)
     {
         var gnews = _gdx.GlobalNews.Where(x=>x.GlobalId == id).ToList();

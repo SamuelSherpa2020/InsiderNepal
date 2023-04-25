@@ -1,7 +1,7 @@
 ﻿@model InsiderNepalApp.ViewModel.BussinessNewsVM;
 
 
-<div class="text-center h2" style="font-family:Consolas">Edit Bussiness News</div>
+@*<div class="text-center h2" style="font-family:Consolas">Edit Bussiness News</div>
 
 <form asp-action="EditBussinessNews" method="post" enctype="multipart/form-data">
     <input class="form-control" type="hidden" asp-for="BussinessNewsVMId" />
@@ -56,3 +56,65 @@
     <button type="submit" class="btn btn-primary custom-btn" style="background-color:#00308F">Update</button>
     <a asp-controller="BussinessNews" asp-action="Index" class="btn btn-dark custom-btn" style="background-color:#5B3B8C">Back</a>
 </form>
+*@
+
+
+
+<div class="text-center h2" style="font-family:Consolas">Edit Bussiness News</div>
+<div>
+    <div class=" ms-5 d-flex justify-content-center" style="padding-left:5%;">
+        <form asp-action="EditGlobalNews" method="post" enctype="multipart/form-data">
+            <input class="form-control" type="hidden" asp-for="BussinessNewsVMId" />
+
+            <div class="col-sm-8 col-md-10">
+                <label asp-for="Title" class="form-label" style="font-weight:bold;">News Title</label>
+                <input asp-for="Title" type="text" class="form-control" style="border:1px solid black;border-radius:8px;">
+                <span class="text-danger" asp-validation-for="Title"></span>
+            </div>
+            <div class="mt-4 col-md-12"></div>
+
+            <div class="col-sm-8 col-md-10">
+                <label asp-for="Content" class="form-label" style="font-weight:bold;">News Content</label>
+                <textarea rows="5" class="form-control" asp-for="Content" type="text" style="border:1px solid black;border-radius:8px;"></textarea>
+                <span class="text-danger" asp-validation-for="Content"></span>
+            </div>
+
+            <div class="mt-4 col-md-12"></div>
+
+
+            <div class="mb-3 col-md-10">
+                <div class="row">
+                    <div>
+                        <label asp-for="Avatar" class="form-label" style="font-weight:bold;">News Image</label><br />
+                        <input class="form-control" asp-for="Avatar" style="border:1px solid black;border-radius:8px;">
+                    </div>
+                    <div class="mt-4 col-md-12"></div>
+
+                    <div>
+                        <img src="@Model.ImageUrl" style="height:100%; width:100%; border-radius:10px" />
+                    </div>
+                </div>
+
+            </div>
+            <input type="hidden" asp-for="ImageUrl" style="border:1px solid black;" />
+            <div class="mt-4 col-md-12"></div>
+
+            <div class="col-sm-8 col-md-10">
+                <label asp-for="PublishDateTime" class="form-label" style="font-weight:bold;">Publish Date</label>
+                <input asp-for="PublishDateTime" type="date" class="form-control" style="border:1px solid black;border-radius:8px;">
+                <span class="text-danger" asp-validation-for="Content"></span>
+            </div>
+            <div class="mt-4 col-md-12"></div>
+
+            <div class="col-sm-5 col-md-10">
+                <label asp-for="Author" class="form-label" style="font-weight:bold;">Author Name</label>
+                <input asp-for="Author" type="text" class="form-control" style="border:1px solid black;border-radius:8px;" />
+                <span class="text-danger" asp-validation-for="Author"></span>
+            </div>
+            <div class="mt-4 col-md-12"></div>
+
+            <button type="submit" class="btn btn-primary custom-btn" style="background-color:#00308F">Update</button>
+            <a asp-controller="GlobalNews" asp-action="index" class="btn btn-dark custom-btn" style="background-color:#5B3B8C">Back</a>
+        </form>
+    </div>
+</div>
