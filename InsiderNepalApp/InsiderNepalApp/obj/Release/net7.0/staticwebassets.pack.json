@@ -1,0 +1,861 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\InsiderNepalApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\InsiderNepalApp.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-Black.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-Black.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-BlackItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-Bold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-Bold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-BoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-Italic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-Italic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-Light.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-Light.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-LightItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\MerriWeather\\Merriweather-Regular.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\MerriWeather\\Merriweather-Regular.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-Bold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-Bold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-ExtraBold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-ExtraLight.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-Light.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-Light.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-Medium.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-Medium.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-Regular.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-Regular.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\Mukta\\Mukta-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Mukta\\Mukta-SemiBold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\Fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\00c65794-8924-4369-9589-802fa2b7435b_IME_Small.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\00c65794-8924-4369-9589-802fa2b7435b_IME_Small.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\062038fb-c2f9-4287-999e-fe9ee382efdb_oil gifs.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\062038fb-c2f9-4287-999e-fe9ee382efdb_oil gifs.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\13d5e4ec-31c6-40fe-a515-df33c13234c4_oil gifs.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\13d5e4ec-31c6-40fe-a515-df33c13234c4_oil gifs.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\1b7b2d5d-042a-4c7e-8bc0-be05841e7b6e_oil gifs.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\1b7b2d5d-042a-4c7e-8bc0-be05841e7b6e_oil gifs.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\21b49058-a175-4080-b55d-953fe7191491_ime.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\21b49058-a175-4080-b55d-953fe7191491_ime.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\266d8b05-e5ad-4188-b09b-cf3ce940ab39_karina.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\266d8b05-e5ad-4188-b09b-cf3ce940ab39_karina.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\29d00ac2-378f-4a8a-942b-03053d5afc8c_gokarna-900x90.jpg",
+      "PackagePath": "staticwebassets\\images\\Ads\\29d00ac2-378f-4a8a-942b-03053d5afc8c_gokarna-900x90.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\74665489-da43-432b-a9c5-2fdddc2bed01_werspark.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\74665489-da43-432b-a9c5-2fdddc2bed01_werspark.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\7580eb5b-7878-43b2-8a5f-5faadd9edf09_somersby.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\7580eb5b-7878-43b2-8a5f-5faadd9edf09_somersby.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\96245634-25df-4d60-8742-b034b41fdbfa_vianet-banner.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\96245634-25df-4d60-8742-b034b41fdbfa_vianet-banner.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\969fde2d-5ea7-45ab-84f7-b48340183761_oil gifs.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\969fde2d-5ea7-45ab-84f7-b48340183761_oil gifs.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\9e23ac30-486b-458c-994a-8f08afdc34bf_Bycycle ads.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\9e23ac30-486b-458c-994a-8f08afdc34bf_Bycycle ads.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\b6c10e43-15a6-4ddc-b36d-94f25b4b3427_booking.png",
+      "PackagePath": "staticwebassets\\images\\Ads\\b6c10e43-15a6-4ddc-b36d-94f25b4b3427_booking.png"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\bc2e6797-1936-4f56-8300-25feac63b02f_ncc_bank.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\bc2e6797-1936-4f56-8300-25feac63b02f_ncc_bank.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\bd600b77-6d9e-4713-8fad-c59a3d04fd5b_yeti-airlines.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\bd600b77-6d9e-4713-8fad-c59a3d04fd5b_yeti-airlines.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\cf7d67ef-d492-498f-a73e-b41d4a5ac308_mitsubishi.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\cf7d67ef-d492-498f-a73e-b41d4a5ac308_mitsubishi.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\d35281a1-dc7e-4480-b9cb-ae5696da0634_pova3.jpg",
+      "PackagePath": "staticwebassets\\images\\Ads\\d35281a1-dc7e-4480-b9cb-ae5696da0634_pova3.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\dacf7b31-9371-4cdc-b207-5060af4d5856_werspark.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\dacf7b31-9371-4cdc-b207-5060af4d5856_werspark.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\db06930e-b6b3-4059-aacb-4744399e20f5_Online-Portal-Aviotrace.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\db06930e-b6b3-4059-aacb-4744399e20f5_Online-Portal-Aviotrace.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\db5ab3c0-753a-4836-ba34-2f8310212639_karina.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\db5ab3c0-753a-4836-ba34-2f8310212639_karina.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\fdcb5442-7eed-4c9b-9d81-f94f1ef0fd4d_visinepal.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\fdcb5442-7eed-4c9b-9d81-f94f1ef0fd4d_visinepal.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\fe95f0bc-477c-417c-bc17-3c72fa5fc054_Pressurecooker.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\fe95f0bc-477c-417c-bc17-3c72fa5fc054_Pressurecooker.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\ff90bec1-4b7b-4dcd-ac24-9ff8def24f46_welcometonepal.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\ff90bec1-4b7b-4dcd-ac24-9ff8def24f46_welcometonepal.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Bussiness\\02cd5457-553d-4bd0-8754-0391d68d8e41_vegetable farming.jpg",
+      "PackagePath": "staticwebassets\\images\\Bussiness\\02cd5457-553d-4bd0-8754-0391d68d8e41_vegetable farming.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Bussiness\\0963c2e6-7934-423e-86ff-434aa160be83_pokhara bussiness.jpg",
+      "PackagePath": "staticwebassets\\images\\Bussiness\\0963c2e6-7934-423e-86ff-434aa160be83_pokhara bussiness.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Bussiness\\15ffd349-4b19-4eb3-a342-b46b70e963e6_amazonrobot.jpg",
+      "PackagePath": "staticwebassets\\images\\Bussiness\\15ffd349-4b19-4eb3-a342-b46b70e963e6_amazonrobot.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Bussiness\\266c22ce-fad3-4b2d-8a84-5616c8cab698_npse decreased.jpg",
+      "PackagePath": "staticwebassets\\images\\Bussiness\\266c22ce-fad3-4b2d-8a84-5616c8cab698_npse decreased.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Bussiness\\2bfe7cfb-cfd6-4cee-a303-ee1235a068f6_toyota.jpg",
+      "PackagePath": "staticwebassets\\images\\Bussiness\\2bfe7cfb-cfd6-4cee-a303-ee1235a068f6_toyota.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Bussiness\\3a0b5ec3-71c4-46dc-a535-920ad82c4f82_price of petrol.jpeg",
+      "PackagePath": "staticwebassets\\images\\Bussiness\\3a0b5ec3-71c4-46dc-a535-920ad82c4f82_price of petrol.jpeg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Bussiness\\88f607bc-ee65-4967-b67e-96c615c76254_4.1 percent.jpg",
+      "PackagePath": "staticwebassets\\images\\Bussiness\\88f607bc-ee65-4967-b67e-96c615c76254_4.1 percent.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Bussiness\\9d63ed77-fcc3-45bc-98b7-b12494a1c491_oil barrel.jpeg",
+      "PackagePath": "staticwebassets\\images\\Bussiness\\9d63ed77-fcc3-45bc-98b7-b12494a1c491_oil barrel.jpeg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Bussiness\\a40a438e-e465-490f-be43-9738274b623e_PM meeting.jpg",
+      "PackagePath": "staticwebassets\\images\\Bussiness\\a40a438e-e465-490f-be43-9738274b623e_PM meeting.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Bussiness\\b00f411f-d92c-4848-a4c1-ad4839790a75_economic growth.jpg",
+      "PackagePath": "staticwebassets\\images\\Bussiness\\b00f411f-d92c-4848-a4c1-ad4839790a75_economic growth.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Bussiness\\da91e639-e406-4d81-a724-f49b78953bad_Gagan Kumar Thapa.jpg",
+      "PackagePath": "staticwebassets\\images\\Bussiness\\da91e639-e406-4d81-a724-f49b78953bad_Gagan Kumar Thapa.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Bussiness\\fd07e987-caa5-47be-823b-4c127378d9bc_nepCricketteam.jpg",
+      "PackagePath": "staticwebassets\\images\\Bussiness\\fd07e987-caa5-47be-823b-4c127378d9bc_nepCricketteam.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Culture\\1708eb44-ab55-4716-8451-a9f85b82583d_kaanchi movie.jpg",
+      "PackagePath": "staticwebassets\\images\\Culture\\1708eb44-ab55-4716-8451-a9f85b82583d_kaanchi movie.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Culture\\36db4046-b15c-4ab0-8a12-73e1bfc21f90_photographer.jpg",
+      "PackagePath": "staticwebassets\\images\\Culture\\36db4046-b15c-4ab0-8a12-73e1bfc21f90_photographer.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Culture\\5cb31719-46a3-4b55-b0f7-d515fef5edd8_japanese movie.jpg",
+      "PackagePath": "staticwebassets\\images\\Culture\\5cb31719-46a3-4b55-b0f7-d515fef5edd8_japanese movie.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Culture\\75b60cc6-736c-4ee4-b5cf-f60fa1dd4e21_i am fulbari.jpg",
+      "PackagePath": "staticwebassets\\images\\Culture\\75b60cc6-736c-4ee4-b5cf-f60fa1dd4e21_i am fulbari.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Culture\\9f32c86b-920d-4812-8167-80109ae00904_fashion show.jpg",
+      "PackagePath": "staticwebassets\\images\\Culture\\9f32c86b-920d-4812-8167-80109ae00904_fashion show.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Culture\\d1fee463-c26d-4d48-b9cd-779e83942998_book reader.jpg",
+      "PackagePath": "staticwebassets\\images\\Culture\\d1fee463-c26d-4d48-b9cd-779e83942998_book reader.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Global\\1df5d2b9-f000-4a36-b5e1-d76f41d8ccb4_harrasment.jpg",
+      "PackagePath": "staticwebassets\\images\\Global\\1df5d2b9-f000-4a36-b5e1-d76f41d8ccb4_harrasment.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Global\\2e715f67-0a71-42cb-808a-6c3c5a1c44ff_tokha construction.jpg",
+      "PackagePath": "staticwebassets\\images\\Global\\2e715f67-0a71-42cb-808a-6c3c5a1c44ff_tokha construction.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Global\\49c32a4e-5eae-4ec0-943b-56a5ca6daf13_4 dead.jpg",
+      "PackagePath": "staticwebassets\\images\\Global\\49c32a4e-5eae-4ec0-943b-56a5ca6daf13_4 dead.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Global\\5542f82e-d401-4e42-b048-5bbdd6df41d0_heroin.jpg",
+      "PackagePath": "staticwebassets\\images\\Global\\5542f82e-d401-4e42-b048-5bbdd6df41d0_heroin.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Global\\91c78933-98e0-45aa-9919-0ba24e9511ee_prachanda.jpg",
+      "PackagePath": "staticwebassets\\images\\Global\\91c78933-98e0-45aa-9919-0ba24e9511ee_prachanda.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Global\\92eac47d-d171-4fde-a4c0-0ab8294cf88e_thermometer.jpg",
+      "PackagePath": "staticwebassets\\images\\Global\\92eac47d-d171-4fde-a4c0-0ab8294cf88e_thermometer.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Global\\a3d40459-fd7c-4fd0-a35f-f6e5a42613b8_hydro.jpg",
+      "PackagePath": "staticwebassets\\images\\Global\\a3d40459-fd7c-4fd0-a35f-f6e5a42613b8_hydro.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Global\\a4a64239-3d88-4e0f-8c55-61859da97380_Gagan Kumar Thapa.jpg",
+      "PackagePath": "staticwebassets\\images\\Global\\a4a64239-3d88-4e0f-8c55-61859da97380_Gagan Kumar Thapa.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Global\\ae917df8-c393-41c9-8654-713bf973e332_prachanda.jpg",
+      "PackagePath": "staticwebassets\\images\\Global\\ae917df8-c393-41c9-8654-713bf973e332_prachanda.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Global\\cc224b63-2aa3-4c81-8b7b-92c37d51ccf7_murder.jpg",
+      "PackagePath": "staticwebassets\\images\\Global\\cc224b63-2aa3-4c81-8b7b-92c37d51ccf7_murder.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Global\\d7f3af66-b245-4bd8-a361-a25612ec2cd9_tokha construction.jpg",
+      "PackagePath": "staticwebassets\\images\\Global\\d7f3af66-b245-4bd8-a361-a25612ec2cd9_tokha construction.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Global\\e7465707-4036-4049-8033-d3d6155e5fc4_singapore visit.jpg",
+      "PackagePath": "staticwebassets\\images\\Global\\e7465707-4036-4049-8033-d3d6155e5fc4_singapore visit.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Global\\f0c57e32-520c-4573-9e78-5f909cd7cbb6_hydro.jpg",
+      "PackagePath": "staticwebassets\\images\\Global\\f0c57e32-520c-4573-9e78-5f909cd7cbb6_hydro.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Journal\\Access denied.png",
+      "PackagePath": "staticwebassets\\images\\Journal\\Access denied.png"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Journal\\Not completed.png",
+      "PackagePath": "staticwebassets\\images\\Journal\\Not completed.png"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Journal\\ham.png",
+      "PackagePath": "staticwebassets\\images\\Journal\\ham.png"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Journal\\locked.png",
+      "PackagePath": "staticwebassets\\images\\Journal\\locked.png"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\0a2e2859-1b2c-4962-8ee2-db7f35fdd578_delish.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\0a2e2859-1b2c-4962-8ee2-db7f35fdd578_delish.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\11d4de38-4d08-4f60-8bc1-4c3394c39885_kailash.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\11d4de38-4d08-4f60-8bc1-4c3394c39885_kailash.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\19233bf4-2a8d-4542-93c2-f1cacc726c7a_kailash.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\19233bf4-2a8d-4542-93c2-f1cacc726c7a_kailash.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\2863dadb-fc12-4fc9-9805-b81e504d5498_PM meeting.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\2863dadb-fc12-4fc9-9805-b81e504d5498_PM meeting.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\2d4b799d-2572-413f-ab33-25eb38167069_TeaGarden.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\2d4b799d-2572-413f-ab33-25eb38167069_TeaGarden.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\44ee6356-bac6-413e-88b7-83a02ebde2d6_police hospital.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\44ee6356-bac6-413e-88b7-83a02ebde2d6_police hospital.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\4d46e2d5-5950-4ba9-a637-dc6a527e1631_china border.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\4d46e2d5-5950-4ba9-a637-dc6a527e1631_china border.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\4d8d0cc5-b3f1-4617-ba29-1e992e173d9d_oil gifs.gif",
+      "PackagePath": "staticwebassets\\images\\National\\4d8d0cc5-b3f1-4617-ba29-1e992e173d9d_oil gifs.gif"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\557c4c86-18ff-4249-8bb8-f740619f1ab9_Messi.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\557c4c86-18ff-4249-8bb8-f740619f1ab9_Messi.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\58de5674-c549-46c3-ad16-7c38ecc3e058_university gate.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\58de5674-c549-46c3-ad16-7c38ecc3e058_university gate.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\9cc7408b-1876-43a6-9f3e-ae4535767426_gathering.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\9cc7408b-1876-43a6-9f3e-ae4535767426_gathering.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\b814db9c-c25a-4300-866f-0ac8c23576f8_alina theeng 1.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\b814db9c-c25a-4300-866f-0ac8c23576f8_alina theeng 1.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\c48c74a8-1353-4fd4-886e-a3804dddfcd8_sushrit.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\c48c74a8-1353-4fd4-886e-a3804dddfcd8_sushrit.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\log in.png",
+      "PackagePath": "staticwebassets\\images\\log in.png"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\sign up.png",
+      "PackagePath": "staticwebassets\\images\\sign up.png"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.InsiderNepalApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.InsiderNepalApp.props",
+      "PackagePath": "build\\InsiderNepalApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.InsiderNepalApp.props",
+      "PackagePath": "buildMultiTargeting\\InsiderNepalApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.InsiderNepalApp.props",
+      "PackagePath": "buildTransitive\\InsiderNepalApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

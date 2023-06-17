@@ -17,7 +17,7 @@ public class DbSeeder
 
         var user = new InsiderNepalAppUser
         {
-            UserName = "sam@gmail.com",
+            UserName = "admin",
             Email = "sam@gmail.com",
             EmailConfirmed = true,
             PhoneNumberConfirmed = true,

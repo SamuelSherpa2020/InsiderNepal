@@ -317,6 +317,10 @@
       "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\00c65794-8924-4369-9589-802fa2b7435b_IME_Small.gif",
+      "PackagePath": "staticwebassets\\images\\Ads\\00c65794-8924-4369-9589-802fa2b7435b_IME_Small.gif"
+    },
+    {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\Ads\\062038fb-c2f9-4287-999e-fe9ee382efdb_oil gifs.gif",
       "PackagePath": "staticwebassets\\images\\Ads\\062038fb-c2f9-4287-999e-fe9ee382efdb_oil gifs.gif"
     },
@@ -565,6 +569,10 @@
       "PackagePath": "staticwebassets\\images\\National\\2d4b799d-2572-413f-ab33-25eb38167069_TeaGarden.jpg"
     },
     {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\357d97c7-6320-475b-a291-2ba4dda2cb69_china border.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\357d97c7-6320-475b-a291-2ba4dda2cb69_china border.jpg"
+    },
+    {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\44ee6356-bac6-413e-88b7-83a02ebde2d6_police hospital.jpg",
       "PackagePath": "staticwebassets\\images\\National\\44ee6356-bac6-413e-88b7-83a02ebde2d6_police hospital.jpg"
     },
@@ -581,8 +589,16 @@
       "PackagePath": "staticwebassets\\images\\National\\557c4c86-18ff-4249-8bb8-f740619f1ab9_Messi.jpg"
     },
     {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\577e0d50-1f24-467b-bfe7-d3f5f56f529a_police hospital.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\577e0d50-1f24-467b-bfe7-d3f5f56f529a_police hospital.jpg"
+    },
+    {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\58de5674-c549-46c3-ad16-7c38ecc3e058_university gate.jpg",
       "PackagePath": "staticwebassets\\images\\National\\58de5674-c549-46c3-ad16-7c38ecc3e058_university gate.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\65025c12-055b-4861-ab8d-f22a3d40b80e_china border.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\65025c12-055b-4861-ab8d-f22a3d40b80e_china border.jpg"
     },
     {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\9cc7408b-1876-43a6-9f3e-ae4535767426_gathering.jpg",
@@ -595,6 +611,10 @@
     {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\c48c74a8-1353-4fd4-886e-a3804dddfcd8_sushrit.jpg",
       "PackagePath": "staticwebassets\\images\\National\\c48c74a8-1353-4fd4-886e-a3804dddfcd8_sushrit.jpg"
+    },
+    {
+      "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\National\\cb848868-e036-44de-be58-7f0c8257ac41_gathering.jpg",
+      "PackagePath": "staticwebassets\\images\\National\\cb848868-e036-44de-be58-7f0c8257ac41_gathering.jpg"
     },
     {
       "Id": "E:\\Silicon Soft\\InsiderNepal\\InsiderNepalApp\\InsiderNepalApp\\wwwroot\\images\\log in.png",

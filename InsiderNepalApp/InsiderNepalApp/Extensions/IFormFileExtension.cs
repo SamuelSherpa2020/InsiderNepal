@@ -29,6 +29,8 @@
 
             var fileName = $"{Guid.NewGuid()}_{image.FileName}";
             var appFolder = Directory.GetCurrentDirectory();
+            //E:\Silicon Soft\InsiderNepal\InsiderNepalApp\InsiderNepalApp\InsiderNepalApp.csproj
+            //var appFolder = "E:/Silicon Soft/InsiderNepal/InsiderNepalApp/";
             var imageFolderPathRelative = $"/images/National/{fileName}";
             var imageFolderPathAbsolute = appFolder +"/wwwroot/"+ imageFolderPathRelative;
 

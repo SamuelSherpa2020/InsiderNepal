@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url('../fonts/poppins/poppins-semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../fonts/poppins/poppins-medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mukta-semibold';
+    src: url('../fonts/mukta/mukta-semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'poppins-extrabold';
+    src: url('../fonts/poppins/poppins-extrabold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mukta-regular';
+    src: url('../fonts/mukta/mukta-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'mukta-light';
+    src: url('../fonts/mukta/mukta-light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'poppins-light';
+    src: url('../fonts/poppins/poppins-light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../fonts/poppins/poppins-regular.ttf') format('truetype');
+}
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+}
+body
+{
+    min-height:100vh;
+}
+
+.navbarHome{
+    font-family:poppins-extrabold;
+    font-size:18px;
+}
+.navbarTopics{
+    font-family:poppins-semibold;
+    font-size:16px;
+}
+
+.newsHeadLine{
+    font-family:mukta-semibold;
+    font-size:25px;
+}
+.newsTopic{
+    font-family:poppins-medium;
+    font-size:33px;
+}
+.newsTopicAdmin{
+    font-family:poppins-medium;
+    font-size:20px;
+}
+
+.newsContent{
+    font-family:Arial;
+    font-size:16px;
+}
+.newsSubContent{
+    font-family:Arial;
+    font-size:17px;
+}
+
+.dateAndAuthor{
+    font-family:poppins-regular;
+    font-size:14px;
+}
+
+.sidenavbar {
+    position: fixed;
+    top: 0;
+    left: -195px;
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(11,35,81);
+    transition: all 0.3s ease-in-out;
+}
+ .sidenavbar:hover {
+        left: 0;
+    }
+ .sidenavbar.active{
+     left:0;
+ }
+.sidefixnavbar {
+    position: fixed;
+    top: 0;
+    left: -195px;
+    
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(11,35,81);
+    transition: all 0.3s ease-in-out;
+}
+.sidefixnavbar:hover {
+    left: 0;
+}
+
+.sidefixnavbar.active {
+    left: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+li {
+    padding: 10px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

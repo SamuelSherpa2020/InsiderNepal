@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsiderNepalApp", "InsiderNepalApp\InsiderNepalApp.csproj", "{0FC51D51-B36F-4679-8738-A2DCD2100857}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsiderNepalApp", "InsiderNepalApp\InsiderNepalApp.csproj", "{0FC51D51-B36F-4679-8738-A2DCD2100857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_InsiderNepal", "Test_InsiderNepal\Test_InsiderNepal.csproj", "{E8FEF644-8958-4AEB-B35B-F750E1AF65EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0FC51D51-B36F-4679-8738-A2DCD2100857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FC51D51-B36F-4679-8738-A2DCD2100857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FC51D51-B36F-4679-8738-A2DCD2100857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8FEF644-8958-4AEB-B35B-F750E1AF65EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FEF644-8958-4AEB-B35B-F750E1AF65EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FEF644-8958-4AEB-B35B-F750E1AF65EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FEF644-8958-4AEB-B35B-F750E1AF65EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

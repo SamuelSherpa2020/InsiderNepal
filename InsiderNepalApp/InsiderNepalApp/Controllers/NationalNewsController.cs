@@ -18,12 +18,19 @@ namespace InsiderNepalApp.Controllers
             _ctx = ctx;
         }
 
-        public IActionResult Index()
+        public IActionResult Index() 
         {
+            try
+            {
             var nnews = _ctx.NationalNews.ToList();
             nnews.Reverse();
             var nnewsVM = nnews.ToViewModel();
             return View(nnewsVM);
+            }
+            catch(Exception ex)
+            {
+                return View ("could not be added !!!");
+            }
         }
 
         // for adding news 
