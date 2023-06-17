@@ -1,0 +1,3 @@
+﻿1. Change the Archtecture of the project: Clean Architecture
+2. Have Generic Repository Pattern
+3. Have Repository and Services with both interface and implementation
